@@ -111,4 +111,5 @@ sayings:
 | `tools/build_site.py` | 由 lineage.json + YAML 生成自包含 `site/index.html` |
 | `tools/clean_ids.py` | 剥离节点 id 中分支图抽取残留的 `**` 分隔符（如 `L::洛京黑**涧**和尚`→`L::洛京黑涧和尚`），同步 tree/parent 引用与 YAML 文件名 |
 | `tools/fix_garbled_names.py` | 修复 CJK 部首拆解记号（IDS）残留的乱码节点名，并据《五灯会元》原文升 5 张卡为 `sourced` |
-| `tools/fix_mojibake.py` | 修正字体缺字映射错误导致的 Unicode 乱码（`U+24986`→`瑫`、`U+255FF`→`裕`），纯字符替换，不影响卡档数量 |
+| `tools/fix_mojibake.py` | 修正字体缺字映射错误导致的 Unicode 乱码（`U+24986`→`瑫`、`U+255FF`→`裕`），并统一 YAML 内部 id/name == 文件名 == 节点 id（对账器） |
+| `tools/audit_integrity.py` | 数据完整性回归守卫：id 唯一 / parent 完整无环 / 无乱码 / tree==flat / 节点↔卡 100% 对应；全过才退出 0 |
