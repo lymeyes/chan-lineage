@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段二卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 石霜圆禅师
 name: 石霜楚圆（慈明楚圆）
 honorific: 石霜楚圆禅师·慈明（汾阳善昭法嗣）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷十二·石霜楚圆 / 杨岐方会机缘
 status: draft
 verify: 待 CBETA 校对；杨岐方会参学机缘须逐字核实。
+evidence: primary
+verify_status: anchor_only

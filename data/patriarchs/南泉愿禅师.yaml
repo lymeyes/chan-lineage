@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段二卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 南泉愿禅师
 name: 南泉普愿
 honorific: 池州南泉普愿禅师（马祖道一法嗣）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷四·南泉普愿
 status: draft
 verify: 待 CBETA 校对南泉普愿机缘与斩猫公案。
+evidence: primary
+verify_status: anchor_only

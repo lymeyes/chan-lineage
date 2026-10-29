@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 核心脊柱卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 百丈海禅师
 name: 百丈怀海
 honorific: 百丈怀海禅师 · 大智禅师（谥）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷三·百丈怀海
 status: draft
 verify: 待 CBETA 校对清规与野狐禅公案。
+evidence: primary
+verify_status: anchor_only

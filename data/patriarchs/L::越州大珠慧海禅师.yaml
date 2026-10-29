@@ -10,3 +10,7 @@ sayings:
   ref: 五灯会元·卷三·大珠慧海禅师
 status: draft
 verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷六 / 五灯会元卷三（《顿悟入道要门论》T48n2014）
+cbeta: T51n2076；T48n2014
+evidence: primary
+verify_status: anchor_only

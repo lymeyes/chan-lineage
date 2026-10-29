@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 核心脊柱卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 药山俨禅师
 name: 药山惟俨
 honorific: 药山惟俨禅师 · 弘道大师（谥）
@@ -18,3 +13,5 @@ sayings:
   ref: 五灯会元·卷五·药山惟俨
 status: draft
 verify: 待 CBETA 校对。
+evidence: primary
+verify_status: anchor_only

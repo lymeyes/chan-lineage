@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段二卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 天台韶国师
 name: 天台德韶
 honorific: 天台德韶国师（法眼文益法嗣，吴越国师）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷十·天台德韶国师
 status: draft
 verify: 待 CBETA 校对天台德韶机缘与天台宗复兴史事。
+evidence: primary
+verify_status: anchor_only

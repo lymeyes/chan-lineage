@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 核心脊柱卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 赵州谂禅师
 name: 赵州从谂
 honorific: 赵州从谂禅师 · 真际禅师（谥）
@@ -26,3 +21,5 @@ sayings:
   ref: 五灯会元·卷四·赵州从谂
 status: draft
 verify: 待 CBETA 校对「吃茶去」「狗子无佛性」等公案。
+evidence: primary
+verify_status: anchor_only

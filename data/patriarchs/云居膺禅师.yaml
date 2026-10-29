@@ -10,3 +10,7 @@ sayings:
   ref: 五灯会元·卷十三·云居道膺禅师
 status: draft
 verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷二十 / 五灯会元卷十三（云居道膺）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

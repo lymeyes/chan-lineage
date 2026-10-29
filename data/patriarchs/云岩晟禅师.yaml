@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段二卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 云岩晟禅师
 name: 云岩昙晟
 honorific: 潭州云岩昙晟禅师（药山惟俨法嗣，洞山良价之师）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷五·云岩昙晟
 status: draft
 verify: 待 CBETA 校对云岩昙晟机缘与洞山「无情说法」公案。
+evidence: primary
+verify_status: anchor_only

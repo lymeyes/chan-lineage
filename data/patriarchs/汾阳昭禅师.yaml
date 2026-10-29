@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段二卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 汾阳昭禅师
 name: 汾阳善昭
 honorific: 汾阳无德禅师善昭（首山省念法嗣）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷十二·汾阳善昭
 status: draft
 verify: 待 CBETA 核对《汾阳无德禅师语录》；颂古原文与「文字禅」源流须核实。
+evidence: primary
+verify_status: anchor_only

@@ -184,6 +184,8 @@ function renderDetail(id){
     if(b.source_ref) h+=`<div class="k">首要出处</div><div>${b.source_ref}</div>`;
     if(b.cbeta) h+=`<div class="k">CBETA</div><div>${b.cbeta}</div>`;
     if(b.status) h+=`<div class="k">状态</div><div>${b.status}</div>`;
+    if(b.evidence) h+=`<div class="k">证据等级</div><div>${b.evidence==='primary'?'引自正典（一手灯录）':'汇编级（二手综述）'}</div>`;
+    if(b.verify_status) h+=`<div class="k">核验状态</div><div>${b.verify_status==='line_verified'?'已逐字校核':'已锚定·待逐字校核'}</div>`;
   } else {
     h+=`<div class="k">师承</div><div>${teacher}</div>`;
   }

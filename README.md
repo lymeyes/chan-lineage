@@ -30,6 +30,7 @@ chan-lineage/
 ├── data/
 │   ├── lineage.json       # 结构化谱系（tree 嵌套 + nodes 扁平 + meta），1977 节点 / 最大 23 世
 │   ├── schema.md          # 祖师 YAML 字段定义与诚信规则
+│   ├── METHODOLOGY.md     # 严谨化方法学：证据等级/核验流程/正典 CBETA 目录
 │   └── patriarchs/        # 每位祖师一份 <id>.yaml（生平/引文/出处）
 ├── sources/               # 原始灯录文本（CBETA 抽取，注明版本）— 待补
 ├── site/
@@ -43,6 +44,7 @@ chan-lineage/
     ├── gen_phase4.py           # 升格临济宗主脉核心祖师（三圣慧然/定上座/灌谿等 16 人）为 draft
     ├── gen_phase5.py           # 升格各宗派骨干祖师（云门/法眼/曹洞/沩仰/青原系等 29 人）为 draft
     └── gen_stubs.py            # 为所有「尚未有卡」的节点生成 named_only 结构占位卡
+    └── upgrade_citations.py    # (Phase R1) 补文献锚点 + evidence/verify_status 透明字段
 ```
 
 ## 当前进度
@@ -62,6 +64,7 @@ chan-lineage/
 | 长尾：仅列名者 | ✅ 已全量覆盖为 `status: named_only` 占位卡（1917 份），不杜撰；后续据 CBETA 将其中「确有言行记载者」升 `draft`/`core` |
 | 杨岐派 house 着色归一（图谱 `杨歧/杨岐` 异体） | ✅ 已修：`杨歧会禅师` 子树 193 节点归一为「杨岐派」；汾阳善昭/石霜楚圆/玄沙备亦归正为临济宗/青原系 |
 | 黄龙慧南开祖卡片 id 错位修复 | ✅ 开祖真实节点为 `黄龙南禅师`（已补卡）；原误挂 `黄龙机禅师` 节点（另一人）的旧卡已改为诚实占位（`named_only`），不再误植 |
+| **Phase R1 严谨化（证据等级 + 核验状态）** | ✅ 全部 103 份 `draft` 卡补 `evidence: primary` + `verify_status: anchor_only`，45 份缺失者补齐 `source_ref`/`cbeta`（统一用可核验 CBETA 大正藏 T 编号，卷次除个别确信者外标「待核」，不编造）；站点新增「证据等级 / 核验状态」渲染；新增 [`METHODOLOGY.md`](METHODOLOGY.md) 固化证据等级与正典目录。**诚实边界：本环境无法抓取 CBETA 全文，故均 `anchor_only`，逐字校核留待 Phase R2** |
 
 ## 本地构建与预览
 

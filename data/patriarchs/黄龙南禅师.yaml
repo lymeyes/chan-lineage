@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 核心脊柱卡（status: draft）
-# 内容据《景德传灯录》《五灯会元》等灯录，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 黄龙南禅师
 name: 黄龙慧南
 honorific: 黄龙慧南禅师 · 普觉禅师（谥）
@@ -18,3 +13,5 @@ sayings:
   ref: 五灯会元·卷十二·黄龙慧南
 status: draft
 verify: 待 CBETA 校对；节点在谱系图中标作「黄龙机禅师」，对应黄龙慧南。
+evidence: primary
+verify_status: anchor_only

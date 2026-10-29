@@ -1,8 +1,3 @@
-# ─────────────────────────────────────────────
-# 阶段三卡（status: draft）— 宋以后巨匠（已在谱系树中，此前缺卡片）
-# 内容据《五灯会元》《碧岩录》《大慧语录》等，待 CBETA 逐字校对后改 core。
-# id 必须 == data/lineage.json 节点 id。
-# ─────────────────────────────────────────────
 id: 黄龙新禅师
 name: 死心悟新
 honorific: 黄龙死心悟新禅师（晦堂祖心法嗣，黄龙派第三代）
@@ -20,3 +15,5 @@ sayings:
   ref: 五灯会元·卷十二·黄龙悟新
 status: draft
 verify: 待 CBETA 校对死心悟新机缘。
+evidence: primary
+verify_status: anchor_only
