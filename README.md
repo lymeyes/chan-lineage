@@ -39,7 +39,8 @@ chan-lineage/
     ├── build_site.py         # 从 lineage.json + YAML → site/index.html
     ├── gen_core_patriarchs.py# 生成「核心脊柱」祖师卡（批量，据灯录）
     ├── gen_patriarchs_phase2.py# 生成「阶段二」扩展祖师卡（临济主脉+云门/法眼/青原系，据灯录）
-    └── gen_patriarchs_song.py  # 生成「阶段三」卡（宋以后巨匠 + 黄龙/虎丘支派关键人物）
+    ├── gen_patriarchs_song.py  # 生成「阶段三」卡（宋以后巨匠 + 黄龙/虎丘支派关键人物）
+    └── gen_stubs.py            # 为所有「尚未有卡」的节点生成 named_only 结构占位卡
 ```
 
 ## 当前进度
@@ -52,8 +53,9 @@ chan-lineage/
 | 核心脊柱祖师卡（七佛→六祖→南岳/青原→五家七宗开祖 + 赵州/石头/药山/德山/雪峰等） | ✅ **29 份 `status: draft`** |
 | 阶段二扩展卡（临济主脉 7 人 + 云门/法眼/青原系 13 人） | ✅ **20 份 `status: draft`**（核心+阶段二 累计 49 份） |
 | 阶段三卡（宋以后巨匠 + 黄龙/虎丘支派关键人物） | ✅ **9 份 `status: draft`**：白云守端/圆悟克勤/虎丘绍隆/大慧宗杲/黄龙祖心/死心悟新/灵源惟清/天童华/密庵咸杰；＋1 占位（`黄龙机`，`named_only`）。**累计 59 份** |
+| **全量节点覆盖**（1976 个非根节点） | ✅ `tools/gen_stubs.py` 为所有「尚未有卡」的节点生成 **1917 份 `status: named_only` 结构占位卡**；**当前共 1976 份卡，与 1976 个非根节点 100% 对应（0 缺漏 / 0 孤儿）**。其中 59 份为 `draft`（含真实生平与公案出处），1917 份为 `named_only`（仅列名、待 CBETA 补全） |
 | 西天二十八祖（印度付法血脉） | ⚠️ 图谱中以单一汇总节点呈现，已写综述卡；各祖独立卡待补 |
-| 长尾：仅列名者 | 🔶 `status: named_only`（如 `黄龙机` 占位），余待补 |
+| 长尾：仅列名者 | ✅ 已全量覆盖为 `status: named_only` 占位卡（1917 份），不杜撰；后续据 CBETA 将其中「确有言行记载者」升 `draft`/`core` |
 | 杨岐派 house 着色归一（图谱 `杨歧/杨岐` 异体） | ✅ 已修：`杨歧会禅师` 子树 193 节点归一为「杨岐派」；汾阳善昭/石霜楚圆/玄沙备亦归正为临济宗/青原系 |
 | 黄龙慧南开祖卡片 id 错位修复 | ✅ 开祖真实节点为 `黄龙南禅师`（已补卡）；原误挂 `黄龙机禅师` 节点（另一人）的旧卡已改为诚实占位（`named_only`），不再误植 |
 
@@ -67,6 +69,7 @@ python3 tools/extract_lineage.py
 python3 tools/gen_core_patriarchs.py
 python3 tools/gen_patriarchs_phase2.py
 python3 tools/gen_patriarchs_song.py
+python3 tools/gen_stubs.py          # 为剩余所有节点生成 named_only 占位卡
 
 # 3) 生成站点（每次增删 patriarchs/*.yaml 后重跑）
 python3 tools/build_site.py
