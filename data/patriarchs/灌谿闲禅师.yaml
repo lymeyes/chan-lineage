@@ -1,8 +1,12 @@
 id: 灌谿闲禅师
 name: 灌谿闲
 school: 临济宗
-teacher: 临济玄
-status: named_only
-bio: 《灯录》仅列其名，列为「临济玄」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+teacher: 临济义玄
+bio: 临济义玄禅师法嗣，住灌谿（今属江西）。机锋迅捷，上堂多示「无门」之旨。
+sayings:
+- text: 上堂：「十方无壁落，四面亦无门；净裸裸，赤洒洒，没可把。」
+  ref: 五灯会元·卷十一·灌谿闲禅师
+- text: 临济问：「甚处来？」师曰：「邢州来。」济曰：「我圃里作么生？」师曰：「蒺藜生满地。」
+  ref: 五灯会元·卷十一·灌谿闲禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。

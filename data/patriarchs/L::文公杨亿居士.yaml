@@ -1,8 +1,12 @@
 id: L::文公杨亿居士
-name: 文公杨亿
+name: 杨亿（杨大年）
 school: 临济宗
-teacher: 广慧琏
-status: named_only
-bio: 《灯录》仅列其名，列为「广慧琏」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+teacher: 广慧元琏
+bio: 北宋名臣、文学家（谥文，世称杨文公），字大年。笃信禅宗，与广慧元琏、谷隐聪等临济宗匠机缘往还，《传灯录》之编纂亦得其力。
+sayings:
+- text: 参广慧元琏，慧问：「承祇事看经，是否？」亿曰：「是。」慧曰：「将甚么看？」亿曰：「将眼睛看。」慧曰：「驴年去！」亿有省。
+  ref: 五灯会元·卷十二·杨亿居士
+- text: 亿呈偈：「八角磨盘空里走，金毛狮子变作狗；拟欲将身北斗藏，应须合掌南辰后。」
+  ref: 五灯会元·卷十二·杨亿居士
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
