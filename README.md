@@ -51,8 +51,13 @@ chan-lineage/
     ├── fix_mojibake.py         # (Phase R2·b) Unicode 缺字乱码订正 + YAML 内部 id/name 对账器
     ├── audit_integrity.py      # 数据完整性回归守卫（id 唯一/parent 无环/tree==flat/节点↔卡 100%）
     ├── extract_cbeta.py       # (Phase R2·c) CBETA XML P5 → sources/*.txt（带行锚点纯文本）
-    └── cbeta_check.py         # (Phase R2·c) 逐字校核器：人名定位 + 语句比对，输出 A/B/C 分级报告
+    ├── cbeta_check.py         # (Phase R2·c) 逐字校核器：人名定位 + 语句比对，输出 A/B/C 分级报告
+    ├── offline_generate.py    # 离线库生成器（Obsidian「宗脉谱系」唯一真源副本，仓库→库自动同步）
+    ├── offline_verify.py      # 离线库完整性校验器（9 项断言，依据 站点/MANIFEST.json 聚合指纹）
+    └── rebuild_offline.py     # 一键灾备重建：定位/克隆仓库 → 同步工具 → 重建 1976 份 → 校验
 ```
+
+> 灾备与恢复：见 [`DISASTER_RECOVERY.md`](DISASTER_RECOVERY.md)。离线库被整目录删除时，一条 `python3 tools/rebuild_offline.py` 即可从零恢复并自证完整（已实测空目录→1976 份，聚合指纹逐字节一致）。
 
 ## 当前进度
 

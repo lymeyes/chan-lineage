@@ -153,3 +153,5 @@ sayings:
 | `tools/audit_integrity.py` | 数据完整性回归守卫：id 唯一 / parent 完整无环 / 无乱码 / tree==flat / 节点↔卡 100% 对应；全过才退出 0 |
 | `tools/extract_cbeta.py` | 从 CBETA XML P5（`.cache/xml-p5` sparse checkout）抽取带行锚点的纯文本到 `sources/*.txt`，锚点格式 `T51n2076_p0377a20`；兼容 T/X 两藏属性顺序差异 |
 | `tools/cbeta_check.py` | 逐字校核器：简繁归一（zhconv）+ 去标点/缺字 gap 后做「人名定位 + 语句多点滑窗比对」，输出 A 双证 / B 单证 / C 未命中分级报告到 `reports/` |
+| `tools/offline_generate.py` / `offline_verify.py` | 离线库（Obsidian）生成器与校验器的**仓库真源副本**；二者原本只存在于不受版本保护的库目录内，目录被同步删空即等于工具丢失，故迁入仓库并由重建脚本下发 |
+| `tools/rebuild_offline.py` | 一键灾备重建：本机数据缺失时自动 `git clone`（SSH 优先/HTTPS 回退）→ 下发工具 → 重建 → 校验；支持 `--prune` / `--verify-only` / `--target` 演练 |
