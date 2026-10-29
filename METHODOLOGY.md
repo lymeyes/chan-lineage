@@ -103,6 +103,12 @@ git checkout master && cd ../.. && python3 tools/extract_cbeta.py && python3 too
 
 > Phase R2·c 基线（2026-10-29，110 张已人工写卡的 draft）：**A 52 / B 58 / C 0**。报告留证于 `reports/cbeta_check_<date>.{md,json}`。
 > Phase R2·d 之后 draft 总数升至 1408（含 1298 张机器抽取），上述 A/B/C 仅指**人工撰写的那 110 张**，不代表全量。
+>
+> **全量机器抽检基线**（2026-10-30，`cbeta_check.py` 对全部 1408 张 draft 卡）：
+> **A 双证 1165 / B 单证 243 / C 未命中 0**——机器抽取的正文在七部灯录语料中零未命中，
+> 抽取管线无系统性错误。B 档 243 张构成：119 张本无问答语录（仅传记，人名已命中）；
+> 86 张语句在跨文本灯录中命中（归属标注差异）；38 张为叙述式改写（如「丹霞烧佛」摘要，
+> 本非逐字引文）。报告：`reports/cbeta_check_2026-10-30.{md,json}`。
 
 ## 4. 引用字段规范（卡片 YAML）
 
