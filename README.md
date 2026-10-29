@@ -32,7 +32,8 @@ chan-lineage/
 │   ├── schema.md          # 祖师 YAML 字段定义与诚信规则
 │   ├── METHODOLOGY.md     # 严谨化方法学：证据等级/核验流程/正典 CBETA 目录
 │   └── patriarchs/        # 每位祖师一份 <id>.yaml（生平/引文/出处）
-├── sources/               # 原始灯录文本（CBETA 抽取，注明版本）— 待补
+├── sources/               # CBETA 抽取文本（不入库，`tools/extract_cbeta.py` 重建）
+├── reports/               # 校核报告（cbeta_check_*.md/json，入库留证）
 ├── site/
 │   └── index.html         # 自包含交互站点（数据内嵌，双击即可打开，无需服务器）
 └── tools/
@@ -45,7 +46,12 @@ chan-lineage/
     ├── gen_phase5.py           # 升格各宗派骨干祖师（云门/法眼/曹洞/沩仰/青原系等 29 人）为 draft
     └── gen_stubs.py            # 为所有「尚未有卡」的节点生成 named_only 结构占位卡
     └── upgrade_citations.py    # (Phase R1) 补文献锚点 + evidence/verify_status 透明字段
-    └── fix_garbled_names.py    # (Phase R2·a) 修复分支图 IDS 乱码名 + 5 卡升 sourced（据五灯会元核校）
+    ├── fix_garbled_names.py    # (Phase R2·a) 修复分支图 IDS 乱码名 + 5 卡升 sourced（据五灯会元核校）
+    ├── clean_ids.py            # (Phase R2·a) 剥离 id 中分支图残留的 ** 分隔符并同步 tree/parent/YAML 名
+    ├── fix_mojibake.py         # (Phase R2·b) Unicode 缺字乱码订正 + YAML 内部 id/name 对账器
+    ├── audit_integrity.py      # 数据完整性回归守卫（id 唯一/parent 无环/tree==flat/节点↔卡 100%）
+    ├── extract_cbeta.py       # (Phase R2·c) CBETA XML P5 → sources/*.txt（带行锚点纯文本）
+    └── cbeta_check.py         # (Phase R2·c) 逐字校核器：人名定位 + 语句比对，输出 A/B/C 分级报告
 ```
 
 ## 当前进度
@@ -60,14 +66,15 @@ chan-lineage/
 | 阶段三卡（宋以后巨匠 + 黄龙/虎丘支派关键人物） | ✅ **9 份 `status: draft`**：白云守端/圆悟克勤/虎丘绍隆/大慧宗杲/黄龙祖心/死心悟新/灵源惟清/天童华/密庵咸杰；＋1 占位（`黄龙机`，`named_only`） |
 | 阶段四升格卡（临济宗主脉核心祖师） | ✅ **16 份 `status: draft`**：三圣慧然/魏府大觉/灌谿闲/定上座/宝寿沼/纸衣道者/桐峰庵主/西院明/守廓侍者/叶县归省/广慧元琏/谷隐聪/神鼎洪諲/浮山法远/杨亿居士/李遵勗居士。**累计 74 份 `draft`** |
 | 阶段五升格卡（各宗派骨干祖师：云门/法眼/曹洞/沩仰/青原系等） | ✅ **29 份 `status: draft`**：云居膺/疏山仁/龙牙遁/九峰虔/九峰满/华严静/洞山守初(已含)/德山缘密/百丈恒/清凉泰钦/保福展/鼓山晏(已含)/兴善惟宽/西堂藏(已含)/归宗常/长庆安/巴陵鉴/罗汉琛(已含)/大梅常/庞蕴居士/灵云志勤/无著文喜/径山洪諲/天童华(已含)/香严闲/芙蓉楷/盘山积/盐官安国师/智门祚/章敬怀晖/鹅湖大义/汾州无业/大珠慧海/石巩慧藏/龙湖普闻/佛日契嵩 等（依图谱节点实际命名升格）。**累计 103 份 `draft`** |
-| **全量节点覆盖**（1976 个非根节点） | ✅ 1976 份卡与 1976 个非根节点 **100% 对应（0 缺漏 / 0 孤儿）**：其中 **108 份 `draft`**（含真实生平 + 公案出处）、**1868 份 `named_only`**（仅列名、待 CBETA 补全，含 1 份黄龙派同名异人诚实占位） |
+| **全量节点覆盖**（1976 个非根节点） | ✅ 1976 份卡与 1976 个非根节点 **100% 对应（0 缺漏 / 0 孤儿）**：其中 **110 份 `draft`**（含真实生平 + 公案出处，其中 2 份已逐字校核）、**1866 份 `named_only`**（仅列名、待 CBETA 补全，含 1 份黄龙派同名异人诚实占位） |
 | 西天二十八祖（印度付法血脉） | ⚠️ 图谱中以单一汇总节点呈现，已写综述卡；各祖独立卡待补 |
 | 长尾：仅列名者 | ✅ 已全量覆盖为 `status: named_only` 占位卡（1917 份），不杜撰；后续据 CBETA 将其中「确有言行记载者」升 `draft`/`core` |
 | 杨岐派 house 着色归一（图谱 `杨歧/杨岐` 异体） | ✅ 已修：`杨歧会禅师` 子树 193 节点归一为「杨岐派」；汾阳善昭/石霜楚圆/玄沙备亦归正为临济宗/青原系 |
 | 黄龙慧南开祖卡片 id 错位修复 | ✅ 开祖真实节点为 `黄龙南禅师`（已补卡）；原误挂 `黄龙机禅师` 节点（另一人）的旧卡已改为诚实占位（`named_only`），不再误植 |
 | **Phase R1 严谨化（证据等级 + 核验状态）** | ✅ 全部 103 份 `draft` 卡补 `evidence: primary` + `verify_status: anchor_only`，45 份缺失者补齐 `source_ref`/`cbeta`（统一用可核验 CBETA 大正藏 T 编号，卷次除个别确信者外标「待核」，不编造）；站点新增「证据等级 / 核验状态」渲染；新增 [`METHODOLOGY.md`](METHODOLOGY.md) 固化证据等级与正典目录。**诚实边界：本环境无法抓取 CBETA 全文，故均 `anchor_only`，逐字校核留待 Phase R2** |
-| **Phase R2·a（乱码节点名修复 + 5 卡升 `sourced`）** | ✅ 修复 5 个因分支图 CJK 部首拆解记号（IDS）残留的乱码节点名，均经《五灯会元》原文联网核验还原真实法讳：报慈从瑰、幻堂中仁、双溪印、祐圣法居、煮山宁；并修正 2 处错挂房支（报慈从瑰→法眼宗、煮山宁→云门宗）。该 5 张卡升为 `verify_status: sourced`（已据《五灯会元》原文摘录生平/上堂语，标注卷次出处），为 `anchor_only` 与 `line_verified` 间的中间态。详见 [`METHODOLOGY.md`](METHODOLOGY.md) §2。**draft 累计 103 → 108；named_only 1873 → 1868** |
+| **Phase R2·a（乱码节点名修复 + 5 卡升 `sourced`）** | ✅ 修复 5 个因分支图 CJK 部首拆解记号（IDS）残留的乱码节点名，均经《五灯会元》原文联网核验还原真实法讳：报慈从瑰（后于 R2·c 订正为从瓌）、幻堂中仁、双溪印、祐圣法居、煮山宁（后于 R2·c 订正为𡺸山宁）；并修正 2 处错挂房支（报慈从瑰→法眼宗、煮山宁→云门宗）。该 5 张卡升为 `verify_status: sourced`（已据《五灯会元》原文摘录生平/上堂语，标注卷次出处），为 `anchor_only` 与 `line_verified` 间的中间态。详见 [`METHODOLOGY.md`](METHODOLOGY.md) §2。**draft 累计 103 → 108；named_only 1873 → 1868** |
 | **Phase R2·b（Unicode 缺字映射乱码 + YAML 一致性对账）** | ✅ 修正 5 个节点名因字体缺字 / 抽取映射错误导致的 Unicode 乱码：源串 `U+24986`→`瑫`(U+746B)、`U+255FF`→`裕`(U+88D5)，均经《五灯会元》/CBETA 目录/佛学词典联网核验还原真实法讳：国泰瑫、安国瑫、潭州龙兴裕、福州迁宗院行瑫仁慧、杭州倾心寺法瑫宗一；并回写这 5 张卡 YAML 的 `id`/`name` 字段。同时修复 `clean_ids.py` 仅重命名文件、未回写内部 `id` 的遗漏——导致 28 张卡的内部 `id` 仍带 `**` 分隔符、与节点脱节（点击节点看不到卡）；本阶段统一令 **YAML 内部 id/name == 文件名 == 节点 id**，全站节点↔卡 100% 对应（0 孤儿 / 0 缺卡），卡档数量与档位不变（draft 108 / named_only 1868）。脚本见 [`tools/fix_mojibake.py`](tools/fix_mojibake.py) |
+| **Phase R2·c（CBETA XML P5 语料管线 + 逐字校核）** | ✅ 打通官方语料管线：经 SSH sparse-checkout 取 [`cbeta-org/xml-p5`](https://github.com/cbeta-org/xml-p5) 中 7 部灯录（景德传灯录 T51n2076 / 续传灯录 T51n2077 / 五灯会元 X80n1565 / 古尊宿语录 X68n1315 / 建中靖国续灯录 X78n1556 / 嘉泰普灯录 X79n1559 / 镇州临济慧照禅师语录 T47n1985），抽取为带 CBETA 行锚点的纯文本（`T51n2076_p0377a20` 规范引用，共 126,914 行）；`tools/cbeta_check.py` 对 110 张 draft 卡做「人名定位 + 语句逐字比对」，结果 **A 双证 52 / B 单证 58 / C 未命中 0**。据此订正 3 处名讳：**从瑰→从瓌**（景录卷二一 p0377a20）、**迁宗院→僊（仙）宗院**、**煮山→𡺸山**（U+21EB8，⿰山耆，音 qí，《字彙》「出《释典》」，与最初分支图 IDS `[山*耆]` 吻合，此前猜作「煮」系误判，已自纠）；5 张卡升级（从瓌/𡺸山宁 `line_verified`，龙兴裕/行瑫仁慧 `sourced`，国泰瑫/安国瑫补 CBETA 定位）。**draft 108 → 110；语料不入库**（CBETA 授权 + 体积），由 `tools/extract_cbeta.py` 一键重建 |
 
 ## 本地构建与预览
 

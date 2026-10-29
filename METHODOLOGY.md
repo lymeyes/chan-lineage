@@ -61,6 +61,44 @@
 
 ---
 
+## 3.1 语料落盘与逐字校核流水线（Phase R2·c 起）
+
+官方全文经 SSH sparse-checkout 从 `cbeta-org/xml-p5` 取单部，不入库（授权 + 体积），落 `.cache/xml-p5/`：
+
+```bash
+git clone --filter=blob:none --no-checkout --depth 1 git@github.com:cbeta-org/xml-p5.git .cache/xml-p5
+cd .cache/xml-p5 && git sparse-checkout init --no-cone
+git sparse-checkout set 'T/T51/T51n2076.xml' 'T/T51/T51n2077.xml' 'T/T47/T47n1985.xml' \
+  'X/X80/X80n1565.xml' 'X/X68/X68n1315.xml' 'X/X78/X78n1556.xml' 'X/X79/X79n1559.xml'
+git checkout master && cd ../.. && python3 tools/extract_cbeta.py && python3 tools/cbeta_check.py
+```
+
+**已入库语料的准确坐标（实测校订，勿凭记忆写编号）**
+
+| 文献 | CBETA 编号 | 校订要点 |
+|---|---|---|
+| 景德傳燈錄 | T51n2076 | 30 卷，禅宗谱系主干 |
+| 續傳燈錄 | T51n2077 | 非《五灯会元》，二者常被混淆 |
+| 五燈會元 | **X80n1565** | 卍续藏，不在大正藏；20 卷 |
+| 古尊宿語錄 | **X68n1315** | 非 T47n1991（后者实为《金陵清凉院文益禅师语录》） |
+| 建中靖國續燈錄 | **X78n1556** | 非 X77n1524（后者实为《补续高僧传》） |
+| 嘉泰普燈錄 | X79n1559 | 另有总目录 X79n1558 |
+| 鎮州臨濟慧照禪師語錄 | T47n1985 | 临济录 |
+
+**比对规则（避免两类系统性误判）**
+
+1. **gaps 容错**：CBETA 对未编码 rare 字使用 `<g ref="#CBxxxxx">`（内容为私用区字符，如 `法<g ref="#CB05287">󱒧</g>宗一`）。比对前两侧统一剔除私用区/增补平面字符，否则「法瑫宗一」永远匹配不到。
+2. **滑窗取样**：经文一行仅约 12–16 字，长窗口易跨行。语句取首/中/尾三处起点，窗口长度 12→9→6 逐级回退。
+3. **短键上下文校验**：法名尾 2 字作检索键时，命中行必须含「禪師/和尚/首座/大師/法嗣」等称谓，否则判为假阳性（如「法居」误撞「受衣法。居嶺南」）。
+
+**分级定义**
+
+- **A 双证**：至少 1 条语句在目标经文逐字命中，且人名在同经定位 → 可升 `sourced`，逐字复核后可升 `line_verified`。
+- **B 单证**：仅语句命中或仅人名定位（或命中落在非目标经文）→ 保留 `draft`，需人工核卷次/异体字。
+- **C 未命中**：需排查卷次错、异体字、缺字 gap 或卡片语句系转述而非原文。
+
+> 当前基线（2026-10-29）：110 张 draft 卡 → **A 52 / B 58 / C 0**。报告留证于 `reports/cbeta_check_<date>.{md,json}`。
+
 ## 4. 引用字段规范（卡片 YAML）
 
 每张卡顶部字段含义：
@@ -113,3 +151,5 @@ sayings:
 | `tools/fix_garbled_names.py` | 修复 CJK 部首拆解记号（IDS）残留的乱码节点名，并据《五灯会元》原文升 5 张卡为 `sourced` |
 | `tools/fix_mojibake.py` | 修正字体缺字映射错误导致的 Unicode 乱码（`U+24986`→`瑫`、`U+255FF`→`裕`），并统一 YAML 内部 id/name == 文件名 == 节点 id（对账器） |
 | `tools/audit_integrity.py` | 数据完整性回归守卫：id 唯一 / parent 完整无环 / 无乱码 / tree==flat / 节点↔卡 100% 对应；全过才退出 0 |
+| `tools/extract_cbeta.py` | 从 CBETA XML P5（`.cache/xml-p5` sparse checkout）抽取带行锚点的纯文本到 `sources/*.txt`，锚点格式 `T51n2076_p0377a20`；兼容 T/X 两藏属性顺序差异 |
+| `tools/cbeta_check.py` | 逐字校核器：简繁归一（zhconv）+ 去标点/缺字 gap 后做「人名定位 + 语句多点滑窗比对」，输出 A 双证 / B 单证 / C 未命中分级报告到 `reports/` |

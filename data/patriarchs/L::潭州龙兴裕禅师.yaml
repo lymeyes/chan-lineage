@@ -1,8 +1,10 @@
 id: L::潭州龙兴裕禅师
 name: 潭州龙兴裕
-school: —
+school: 法眼宗
 teacher: 延寿轮
-status: named_only
-bio: 《灯录》仅列其名，列为「延寿轮」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 潭州龙兴裕禅师，法眼宗延寿轮禅师法嗣（据谱系树）。《景德传灯录》卷二十四载其机缘语两则。
+sayings:
+- text: 僧问：「是何是学人自己？」师曰：「张三李四。」曰：「比来问自己，为什么道张三李四？」师曰：「汝且莫草草。」问：「诸余即不问，如何是和尚家风？」师曰：「家风即且置，阿那个是汝自己？」
+  ref: 景德传灯录·卷二十四（T51n2076_p0403b28-c02）
+verify: 已对校 CBETA XML P5：《景德传灯录》卷二十四 T51n2076_p0403b28-c02 逐字命中；问答「是何是学人自己／张三李四」及「和尚家风」两则均据原文录入。
