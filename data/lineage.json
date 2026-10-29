@@ -3644,7 +3644,7 @@
      {
       "id": "玄沙备禅师",
       "name": "玄沙备",
-      "house": "源头",
+      "house": "青原系",
       "children": [
        {
         "id": "罗汉琛禅师",
@@ -8007,12 +8007,12 @@
    {
     "id": "汾阳昭禅师",
     "name": "汾阳昭",
-    "house": "源头",
+    "house": "临济宗",
     "children": [
      {
       "id": "石霜圆禅师",
       "name": "石霜圆",
-      "house": "源头",
+      "house": "临济宗",
       "children": [
        {
         "id": "杨歧会禅师",
@@ -8022,35 +8022,35 @@
          {
           "id": "L::比部孙居士",
           "name": "比部孙",
-          "house": "源头",
+          "house": "杨岐派",
           "children": []
          },
          {
           "id": "L::潭州石霜守孙禅师",
           "name": "潭州石霜守孙",
-          "house": "源头",
+          "house": "杨岐派",
           "children": []
          },
          {
           "id": "白云端禅师",
           "name": "白云端",
-          "house": "源头",
+          "house": "杨岐派",
           "children": [
            {
             "id": "L::提刑郭祥正",
             "name": "提刑郭祥正",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "琅邪起禅师",
             "name": "琅邪起",
-            "house": "源头",
+            "house": "杨岐派",
             "children": [
              {
               "id": "L::俞道婆",
               "name": "俞道婆",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              }
             ]
@@ -8058,12 +8058,12 @@
            {
             "id": "云盖本禅师",
             "name": "云盖本",
-            "house": "源头",
+            "house": "杨岐派",
             "children": [
              {
               "id": "L::潭州南岳承天院自贤禅师",
               "name": "潭州南岳承天院自贤",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              }
             ]
@@ -8071,46 +8071,46 @@
            {
             "id": "L::英州保福殊禅师",
             "name": "英州保福殊",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "五祖演禅师",
             "name": "五祖演",
-            "house": "源头",
+            "house": "杨岐派",
             "children": [
              {
               "id": "L::元礼首座",
               "name": "元礼首座",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              },
              {
               "id": "L::嘉州九顶清素禅师",
               "name": "嘉州九顶清素",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              },
              {
               "id": "大随静禅师",
               "name": "大随静",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "L::剑门南修道者",
                 "name": "剑门南修道",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "石头回禅师",
                 "name": "石头回",
-                "house": "青原系",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::南康军云居蓬庵德会禅师",
                   "name": "南康军云居蓬庵德会",
-                  "house": "青原系",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8118,37 +8118,37 @@
                {
                 "id": "L::嘉州能仁默堂绍悟禅师",
                 "name": "嘉州能仁默堂绍悟",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::常德府梁山廓庵师远禅师",
                 "name": "常德府梁山廓庵师远",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::彭州土溪智陀子言庵主",
                 "name": "彭州土溪智陀子言",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::潼川府护圣愚丘居静禅师",
                 "name": "潼川府护圣愚丘居静",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::莫将尚书",
                 "name": "莫将尚书",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::龙图王萧居士",
                 "name": "龙图王萧",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                }
               ]
@@ -8156,106 +8156,106 @@
              {
               "id": "昭觉勤禅师",
               "name": "昭觉勤",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "L::临安府中天竺**[仁-二+幻]**堂中仁禅师",
                 "name": "临安府中天竺[仁-二+幻]堂中仁",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "径山杲禅师",
                 "name": "径山杲",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::临安府灵隐最庵道印禅师",
                   "name": "临安府灵隐最庵道印",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::临安府灵隐谁庵了演禅师",
                   "name": "临安府灵隐谁庵了演",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::侍郎无垢居士张九成",
                   "name": "侍郎无垢张九成",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::剑州万寿自护禅师",
                   "name": "剑州万寿自护",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::参政李邴居士",
                   "name": "参政李邴",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::处州连云道能禅师",
                   "name": "处州连云道能",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::大沩法宝禅师",
                   "name": "大沩法宝",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::宝学刘彦修居士",
                   "name": "宝学刘彦修",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::常州华藏遁庵宗演禅师",
                   "name": "常州华藏遁庵宗演",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::平江府资寿尼无著妙总禅师",
                   "name": "平江府资寿尼无著妙总",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::庆元府天童无用净全禅师",
                   "name": "庆元府天童无用净全",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::庆元府育王佛照德光禅师",
                   "name": "庆元府育王佛照德光",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::庆元府育王大圆遵璞禅师",
                   "name": "庆元府育王大圆遵璞",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "开善谦禅师",
                   "name": "开善谦",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::建宁府仙州山吴十三道人",
                     "name": "建宁府仙州山吴十三道人",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8263,48 +8263,48 @@
                  {
                   "id": "L::建宁府竹原宗元庵主",
                   "name": "建宁府竹原宗元",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::建康府蒋山一庵善直禅师",
                   "name": "建康府蒋山一庵善直",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::提刑吴伟明居士",
                   "name": "提刑吴伟明",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "东林颜禅师",
                   "name": "东林颜",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::临安府净慈肯堂彦充禅师",
                     "name": "临安府净慈肯堂彦充",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::婺州智者元庵真慈禅师",
                     "name": "婺州智者元庵真慈",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::汀州报恩法演禅师",
                     "name": "汀州报恩法演",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::荆南府公安遁庵祖珠禅师",
                     "name": "荆南府公安遁庵祖珠",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8312,18 +8312,18 @@
                  {
                   "id": "教忠光禅师",
                   "name": "教忠光",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::临安府净慈混源昙密禅师",
                     "name": "临安府净慈混源昙密",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::泉州法石中庵慧空禅师",
                     "name": "泉州法石中庵慧空",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8331,36 +8331,36 @@
                  {
                   "id": "L::泰州光孝寺致远禅师",
                   "name": "泰州光孝寺致远",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::温州净居尼妙道禅师",
                   "name": "温州净居尼妙道",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::温州雁山能仁枯木祖元禅师",
                   "name": "温州雁山能仁枯木祖元",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::潭州大沩了庵景晕禅师",
                   "name": "潭州大沩了庵景晕",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "东禅岳禅师",
                   "name": "东禅岳",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::福州鼓山宗逮禅师",
                     "name": "福州鼓山宗逮",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8368,36 +8368,36 @@
                  {
                   "id": "L::福州玉泉昙懿禅师",
                   "name": "福州玉泉昙懿",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "西禅需禅师",
                   "name": "西禅需",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::南剑州剑门安分庵主",
                     "name": "南剑州剑门安分",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::温州龙翔柏堂南雅禅师",
                     "name": "温州龙翔柏堂南雅",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::福州天王志清禅师",
                     "name": "福州天王志清",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::福州鼓山木庵安永禅师",
                     "name": "福州鼓山木庵安永",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8405,12 +8405,12 @@
                  {
                   "id": "西禅净禅师",
                   "name": "西禅净",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::福州乾元宗颕禅师",
                     "name": "福州乾元宗颕",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8418,31 +8418,31 @@
                  {
                   "id": "L::福州雪峰崇圣普慈蕴闻禅师",
                   "name": "福州雪峰崇圣普慈蕴闻",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::秦国夫人计氏法真",
                   "name": "秦国夫人计氏法真",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::近礼侍者",
                   "name": "近礼侍",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::门司黄彦节居士",
                   "name": "门司黄彦节",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::饶州荐福悟本禅师",
                   "name": "饶州荐福悟本",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8450,36 +8450,36 @@
                {
                 "id": "灵隐远禅师",
                 "name": "灵隐远",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::内翰曾开居士",
                   "name": "内翰曾开",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::庆元府东山全庵齐己禅师",
                   "name": "庆元府东山全庵齐己",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::抚州疏山归云如本禅师",
                   "name": "抚州疏山归云如本",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::知府葛郯居士",
                   "name": "知府葛郯",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::觉阿上人",
                   "name": "觉阿上人",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8487,54 +8487,54 @@
                {
                 "id": "L::令人本明",
                 "name": "令人本明",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::侍郎李弥逊",
                 "name": "侍郎李弥逊",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::南康军云居宗振首座",
                 "name": "南康军云居宗振首座",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::台州天封觉禅师",
                 "name": "台州天封觉",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "护国元禅师",
                 "name": "护国元",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::参政钱端礼居士",
                   "name": "参政钱端礼",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::台州国清简堂行机禅师",
                   "name": "台州国清简堂行机",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::常州华藏湛堂智深禅师",
                   "name": "常州华藏湛堂智深",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::镇江府焦山或庵师体禅师",
                   "name": "镇江府焦山或庵师体",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8542,53 +8542,53 @@
                {
                 "id": "L::台州鸿福子文禅师",
                 "name": "台州鸿福子文",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::岳州君山佛照觉禅师",
                 "name": "岳州君山佛照觉",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::平江府南峰云辩禅师",
                 "name": "平江府南峰云辩",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::平江府宝华显禅师",
                 "name": "平江府宝华显",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "虎丘隆禅师",
                 "name": "虎丘隆",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "天童华禅师",
                   "name": "天童华",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::侍郎李浩居士",
                     "name": "侍郎李浩",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::南书记者",
                     "name": "南书记",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    },
                    {
                     "id": "L::庆元府天童密庵咸杰禅师",
                     "name": "庆元府天童密庵咸杰",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8598,35 +8598,35 @@
                {
                 "id": "L::平江府虎丘雪庭元净禅师",
                 "name": "平江府虎丘雪庭元净",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::平江府西山明因昙玩禅师",
                 "name": "平江府西山明因昙玩",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "育王裕禅师",
                 "name": "育王裕",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::临安府净慈水庵师一禅师",
                   "name": "临安府净慈水庵师一",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "道场全禅师",
                   "name": "道场全",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::常州华藏伊庵有权禅师",
                     "name": "常州华藏伊庵有权",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8634,7 +8634,7 @@
                  {
                   "id": "L::福州清凉坦禅师",
                   "name": "福州清凉坦",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8642,12 +8642,12 @@
                {
                 "id": "华藏民禅师",
                 "name": "华藏民",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::临安府径山别峰宝印禅师",
                   "name": "临安府径山别峰宝印",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8655,54 +8655,54 @@
                {
                 "id": "昭觉元禅师",
                 "name": "昭觉元",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::成都府昭觉道祖首座",
                 "name": "成都府昭觉道祖首座",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::成都府正法建禅师",
                 "name": "成都府正法建",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::成都府范县君者",
                 "name": "成都府范县君",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::枢密徐俯",
                 "name": "枢密徐俯",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "大沩泰禅师",
                 "name": "大沩泰",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::成都府昭觉辩禅师",
                   "name": "成都府昭觉辩",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::成都府正法灏禅师",
                   "name": "成都府正法灏",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::潭州慧通清旦禅师",
                   "name": "潭州慧通清旦",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8710,43 +8710,43 @@
                {
                 "id": "L::潭州福严文演禅师",
                 "name": "潭州福严文演",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::眉州象耳山袁觉禅师",
                 "name": "眉州象耳山袁觉",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::福州玄沙僧昭禅师",
                 "name": "福州玄沙僧昭",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::绍兴府东山觉禅师",
                 "name": "绍兴府东山觉",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::衢州天宁讷堂梵思禅师",
                 "name": "衢州天宁讷堂梵思",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::觉庵道人祖氏",
                 "name": "觉庵道人祖氏",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::郡王赵令衿",
                 "name": "郡王赵令衿",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                }
               ]
@@ -8754,46 +8754,46 @@
              {
               "id": "L::普融知藏",
               "name": "普融知藏",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              },
              {
               "id": "L::汉州无为宗泰禅师",
               "name": "汉州无为宗泰",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              },
              {
               "id": "L::法閦上座",
               "name": "法閦上座",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              },
              {
               "id": "开福宁禅师",
               "name": "开福宁",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "大沩果禅师",
                 "name": "大沩果",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::常州宜兴保安复庵可封禅师",
                   "name": "常州宜兴保安复庵可封",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "大沩行禅师",
                   "name": "大沩行",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::常德府德山子涓禅师",
                     "name": "常德府德山子涓",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -8801,37 +8801,37 @@
                  {
                   "id": "L::潭州石霜宗鉴禅师",
                   "name": "潭州石霜宗鉴",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::潭州道林渊禅师",
                   "name": "潭州道林渊",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::荆门军玉泉穷谷宗琏禅师",
                   "name": "荆门军玉泉穷谷宗琏",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::隆兴府泐潭山堂德淳禅师",
                   "name": "隆兴府泐潭山堂德淳",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::隆兴府石亭野庵祖璇禅师",
                   "name": "隆兴府石亭野庵祖璇",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::随州大洪老衲祖证禅师",
                   "name": "随州大洪老衲祖证",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8841,29 +8841,29 @@
              {
               "id": "太平懃禅师",
               "name": "太平懃",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "L::台州宝藏本禅师",
                 "name": "台州宝藏本",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::吉州大中祥符清海禅师",
                 "name": "吉州大中祥符清海",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "何山珣禅师",
                 "name": "何山珣",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::待制潘良贵居士",
                   "name": "待制潘良贵",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8871,18 +8871,18 @@
                {
                 "id": "文殊道禅师",
                 "name": "文殊道",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::常德府文殊思业禅师",
                   "name": "常德府文殊思业",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::潭州楚安慧方禅师",
                   "name": "潭州楚安慧方",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8890,30 +8890,30 @@
                {
                 "id": "L::明州蓬莱卿禅师",
                 "name": "明州蓬莱卿",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::漳州净众佛真了灿禅师",
                 "name": "漳州净众佛真了灿",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::潭州龙牙智才禅师",
                 "name": "潭州龙牙智才",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "泐潭明禅师",
                 "name": "泐潭明",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::汉州无为随庵守缘禅师",
                   "name": "汉州无为随庵守缘",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8921,13 +8921,13 @@
                {
                 "id": "L::隆兴府谷山海禅师",
                 "name": "隆兴府谷山海",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::韶州南华知昺禅师",
                 "name": "韶州南华知昺",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                }
               ]
@@ -8935,29 +8935,29 @@
              {
               "id": "龙门远禅师",
               "name": "龙门远",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "L::世奇首座者",
                 "name": "世奇首座",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "云居如禅师",
                 "name": "云居如",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::太平州隐静圆极彦岑禅师",
                   "name": "太平州隐静圆极彦岑",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::鄂州报恩成禅师",
                   "name": "鄂州报恩成",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8965,30 +8965,30 @@
                {
                 "id": "L::南康军云居高庵善悟禅师",
                 "name": "南康军云居高庵善悟",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::南康军归宗真牧正贤禅师",
                 "name": "南康军归宗真牧正贤",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "道场辩禅师",
                 "name": "道场辩",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::安吉州何山然首座",
                   "name": "安吉州何山然首座",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::平江府觉报清禅师",
                   "name": "平江府觉报清",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -8996,12 +8996,12 @@
                {
                 "id": "白杨顺禅师",
                 "name": "白杨顺",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::吉州青原如禅师",
                   "name": "吉州青原如",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9009,12 +9009,12 @@
                {
                 "id": "净居尼温禅师",
                 "name": "净居尼温",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::温州净居尼无相法灯禅师",
                   "name": "温州净居尼无相法灯",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9022,41 +9022,41 @@
                {
                 "id": "龙翔珪禅师",
                 "name": "龙翔珪",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::云居悟禅师法嗣",
                   "name": "云居悟法嗣",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::南康军云居普云自圆禅师",
                   "name": "南康军云居普云自圆",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::南康军云居顽庵德升禅师",
                   "name": "南康军云居顽庵德升",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::台州万年无著道闲禅师",
                   "name": "台州万年无著道闲",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "双林用禅师",
                   "name": "双林用",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": [
                    {
                     "id": "L::婺州三峰印禅师",
                     "name": "婺州三峰印",
-                    "house": "源头",
+                    "house": "杨岐派",
                     "children": []
                    }
                   ]
@@ -9064,13 +9064,13 @@
                  {
                   "id": "L::福州中际善能禅师",
                   "name": "福州中际善能",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::通州狼山萝庵慧温禅师",
                   "name": "通州狼山萝庵慧温",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9078,36 +9078,36 @@
                {
                 "id": "L::潭州方广深禅师",
                 "name": "潭州方广深",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "L::给事冯楫济川居士",
                 "name": "给事冯楫济川",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                },
                {
                 "id": "乌巨行禅师",
                 "name": "乌巨行",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::信州龟峰晦庵慧光禅师",
                   "name": "信州龟峰晦庵慧光",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::真州长芦且庵守仁禅师",
                   "name": "真州长芦且庵守仁",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  },
                  {
                   "id": "L::饶州荐福退庵休禅师",
                   "name": "饶州荐福退庵休",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9115,12 +9115,12 @@
                {
                 "id": "西禅琏禅师",
                 "name": "西禅琏",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::遂宁府西禅第二代希秀禅师",
                   "name": "遂宁府西禅第二代希秀",
-                  "house": "源头",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9128,12 +9128,12 @@
                {
                 "id": "黄龙忠禅师",
                 "name": "黄龙忠",
-                "house": "黄龙派",
+                "house": "杨岐派",
                 "children": [
                  {
                   "id": "L::成都府信相戒修禅师",
                   "name": "成都府信相戒修",
-                  "house": "黄龙派",
+                  "house": "杨岐派",
                   "children": []
                  }
                 ]
@@ -9143,12 +9143,12 @@
              {
               "id": "五祖自禅师",
               "name": "五祖自",
-              "house": "源头",
+              "house": "杨岐派",
               "children": [
                {
                 "id": "L::蕲州龙华高禅师",
                 "name": "蕲州龙华高",
-                "house": "源头",
+                "house": "杨岐派",
                 "children": []
                }
               ]
@@ -9156,7 +9156,7 @@
              {
               "id": "L::蕲州龙华道初禅师",
               "name": "蕲州龙华道初",
-              "house": "源头",
+              "house": "杨岐派",
               "children": []
              }
             ]
@@ -9164,7 +9164,7 @@
            {
             "id": "L::袁州崇胜院珙禅师",
             "name": "袁州崇胜院珙",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            }
           ]
@@ -9172,36 +9172,36 @@
          {
           "id": "保宁勇禅师",
           "name": "保宁勇",
-          "house": "源头",
+          "house": "杨岐派",
           "children": [
            {
             "id": "L::信州灵鹫山宝积宗映禅师",
             "name": "信州灵鹫山宝积宗映",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "L::安吉州上方日益禅师",
             "name": "安吉州上方日益",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "L::安吉州乌镇寿圣院楚文禅师",
             "name": "安吉州乌镇寿圣院楚文",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "L::郢州月掌山寿圣智渊禅师",
             "name": "郢州月掌山寿圣智渊",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            },
            {
             "id": "L::隆兴府景福日余禅师",
             "name": "隆兴府景福日余",
-            "house": "源头",
+            "house": "杨岐派",
             "children": []
            }
           ]
@@ -17011,7 +17011,7 @@
   {
    "id": "玄沙备禅师",
    "name": "玄沙备",
-   "house": "源头",
+   "house": "青原系",
    "parent": "雪峰存禅师",
    "depth": 2,
    "n_children": 13
@@ -22627,7 +22627,7 @@
   {
    "id": "汾阳昭禅师",
    "name": "汾阳昭",
-   "house": "源头",
+   "house": "临济宗",
    "parent": "ROOT::禅宗法脉",
    "depth": 1,
    "n_children": 11
@@ -22635,7 +22635,7 @@
   {
    "id": "石霜圆禅师",
    "name": "石霜圆",
-   "house": "源头",
+   "house": "临济宗",
    "parent": "汾阳昭禅师",
    "depth": 2,
    "n_children": 16
@@ -22643,7 +22643,7 @@
   {
    "id": "杨歧会禅师",
    "name": "杨歧会",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "石霜圆禅师",
    "depth": 3,
    "n_children": 4
@@ -22651,7 +22651,7 @@
   {
    "id": "L::比部孙居士",
    "name": "比部孙",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "杨歧会禅师",
    "depth": 4,
    "n_children": 0
@@ -22659,7 +22659,7 @@
   {
    "id": "L::潭州石霜守孙禅师",
    "name": "潭州石霜守孙",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "杨歧会禅师",
    "depth": 4,
    "n_children": 0
@@ -22667,7 +22667,7 @@
   {
    "id": "白云端禅师",
    "name": "白云端",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "杨歧会禅师",
    "depth": 4,
    "n_children": 6
@@ -22675,7 +22675,7 @@
   {
    "id": "L::提刑郭祥正",
    "name": "提刑郭祥正",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 0
@@ -22683,7 +22683,7 @@
   {
    "id": "琅邪起禅师",
    "name": "琅邪起",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 1
@@ -22691,7 +22691,7 @@
   {
    "id": "L::俞道婆",
    "name": "俞道婆",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "琅邪起禅师",
    "depth": 6,
    "n_children": 0
@@ -22699,7 +22699,7 @@
   {
    "id": "云盖本禅师",
    "name": "云盖本",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 1
@@ -22707,7 +22707,7 @@
   {
    "id": "L::潭州南岳承天院自贤禅师",
    "name": "潭州南岳承天院自贤",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "云盖本禅师",
    "depth": 6,
    "n_children": 0
@@ -22715,7 +22715,7 @@
   {
    "id": "L::英州保福殊禅师",
    "name": "英州保福殊",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 0
@@ -22723,7 +22723,7 @@
   {
    "id": "五祖演禅师",
    "name": "五祖演",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 12
@@ -22731,7 +22731,7 @@
   {
    "id": "L::元礼首座",
    "name": "元礼首座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -22739,7 +22739,7 @@
   {
    "id": "L::嘉州九顶清素禅师",
    "name": "嘉州九顶清素",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -22747,7 +22747,7 @@
   {
    "id": "大随静禅师",
    "name": "大随静",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 8
@@ -22755,7 +22755,7 @@
   {
    "id": "L::剑门南修道者",
    "name": "剑门南修道",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22763,7 +22763,7 @@
   {
    "id": "石头回禅师",
    "name": "石头回",
-   "house": "青原系",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 1
@@ -22771,7 +22771,7 @@
   {
    "id": "L::南康军云居蓬庵德会禅师",
    "name": "南康军云居蓬庵德会",
-   "house": "青原系",
+   "house": "杨岐派",
    "parent": "石头回禅师",
    "depth": 8,
    "n_children": 0
@@ -22779,7 +22779,7 @@
   {
    "id": "L::嘉州能仁默堂绍悟禅师",
    "name": "嘉州能仁默堂绍悟",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22787,7 +22787,7 @@
   {
    "id": "L::常德府梁山廓庵师远禅师",
    "name": "常德府梁山廓庵师远",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22795,7 +22795,7 @@
   {
    "id": "L::彭州土溪智陀子言庵主",
    "name": "彭州土溪智陀子言",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22803,7 +22803,7 @@
   {
    "id": "L::潼川府护圣愚丘居静禅师",
    "name": "潼川府护圣愚丘居静",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22811,7 +22811,7 @@
   {
    "id": "L::莫将尚书",
    "name": "莫将尚书",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22819,7 +22819,7 @@
   {
    "id": "L::龙图王萧居士",
    "name": "龙图王萧",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大随静禅师",
    "depth": 7,
    "n_children": 0
@@ -22827,7 +22827,7 @@
   {
    "id": "昭觉勤禅师",
    "name": "昭觉勤",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 30
@@ -22835,7 +22835,7 @@
   {
    "id": "L::临安府中天竺**[仁-二+幻]**堂中仁禅师",
    "name": "临安府中天竺[仁-二+幻]堂中仁",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -22843,7 +22843,7 @@
   {
    "id": "径山杲禅师",
    "name": "径山杲",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 32
@@ -22851,7 +22851,7 @@
   {
    "id": "L::临安府灵隐最庵道印禅师",
    "name": "临安府灵隐最庵道印",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22859,7 +22859,7 @@
   {
    "id": "L::临安府灵隐谁庵了演禅师",
    "name": "临安府灵隐谁庵了演",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22867,7 +22867,7 @@
   {
    "id": "L::侍郎无垢居士张九成",
    "name": "侍郎无垢张九成",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22875,7 +22875,7 @@
   {
    "id": "L::剑州万寿自护禅师",
    "name": "剑州万寿自护",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22883,7 +22883,7 @@
   {
    "id": "L::参政李邴居士",
    "name": "参政李邴",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22891,7 +22891,7 @@
   {
    "id": "L::处州连云道能禅师",
    "name": "处州连云道能",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22899,7 +22899,7 @@
   {
    "id": "L::大沩法宝禅师",
    "name": "大沩法宝",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22907,7 +22907,7 @@
   {
    "id": "L::宝学刘彦修居士",
    "name": "宝学刘彦修",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22915,7 +22915,7 @@
   {
    "id": "L::常州华藏遁庵宗演禅师",
    "name": "常州华藏遁庵宗演",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22923,7 +22923,7 @@
   {
    "id": "L::平江府资寿尼无著妙总禅师",
    "name": "平江府资寿尼无著妙总",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22931,7 +22931,7 @@
   {
    "id": "L::庆元府天童无用净全禅师",
    "name": "庆元府天童无用净全",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22939,7 +22939,7 @@
   {
    "id": "L::庆元府育王佛照德光禅师",
    "name": "庆元府育王佛照德光",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22947,7 +22947,7 @@
   {
    "id": "L::庆元府育王大圆遵璞禅师",
    "name": "庆元府育王大圆遵璞",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22955,7 +22955,7 @@
   {
    "id": "开善谦禅师",
    "name": "开善谦",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 1
@@ -22963,7 +22963,7 @@
   {
    "id": "L::建宁府仙州山吴十三道人",
    "name": "建宁府仙州山吴十三道人",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "开善谦禅师",
    "depth": 9,
    "n_children": 0
@@ -22971,7 +22971,7 @@
   {
    "id": "L::建宁府竹原宗元庵主",
    "name": "建宁府竹原宗元",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22979,7 +22979,7 @@
   {
    "id": "L::建康府蒋山一庵善直禅师",
    "name": "建康府蒋山一庵善直",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22987,7 +22987,7 @@
   {
    "id": "L::提刑吴伟明居士",
    "name": "提刑吴伟明",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -22995,7 +22995,7 @@
   {
    "id": "东林颜禅师",
    "name": "东林颜",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 4
@@ -23003,7 +23003,7 @@
   {
    "id": "L::临安府净慈肯堂彦充禅师",
    "name": "临安府净慈肯堂彦充",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "东林颜禅师",
    "depth": 9,
    "n_children": 0
@@ -23011,7 +23011,7 @@
   {
    "id": "L::婺州智者元庵真慈禅师",
    "name": "婺州智者元庵真慈",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "东林颜禅师",
    "depth": 9,
    "n_children": 0
@@ -23019,7 +23019,7 @@
   {
    "id": "L::汀州报恩法演禅师",
    "name": "汀州报恩法演",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "东林颜禅师",
    "depth": 9,
    "n_children": 0
@@ -23027,7 +23027,7 @@
   {
    "id": "L::荆南府公安遁庵祖珠禅师",
    "name": "荆南府公安遁庵祖珠",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "东林颜禅师",
    "depth": 9,
    "n_children": 0
@@ -23035,7 +23035,7 @@
   {
    "id": "教忠光禅师",
    "name": "教忠光",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 2
@@ -23043,7 +23043,7 @@
   {
    "id": "L::临安府净慈混源昙密禅师",
    "name": "临安府净慈混源昙密",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "教忠光禅师",
    "depth": 9,
    "n_children": 0
@@ -23051,7 +23051,7 @@
   {
    "id": "L::泉州法石中庵慧空禅师",
    "name": "泉州法石中庵慧空",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "教忠光禅师",
    "depth": 9,
    "n_children": 0
@@ -23059,7 +23059,7 @@
   {
    "id": "L::泰州光孝寺致远禅师",
    "name": "泰州光孝寺致远",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23067,7 +23067,7 @@
   {
    "id": "L::温州净居尼妙道禅师",
    "name": "温州净居尼妙道",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23075,7 +23075,7 @@
   {
    "id": "L::温州雁山能仁枯木祖元禅师",
    "name": "温州雁山能仁枯木祖元",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23083,7 +23083,7 @@
   {
    "id": "L::潭州大沩了庵景晕禅师",
    "name": "潭州大沩了庵景晕",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23091,7 +23091,7 @@
   {
    "id": "东禅岳禅师",
    "name": "东禅岳",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 1
@@ -23099,7 +23099,7 @@
   {
    "id": "L::福州鼓山宗逮禅师",
    "name": "福州鼓山宗逮",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "东禅岳禅师",
    "depth": 9,
    "n_children": 0
@@ -23107,7 +23107,7 @@
   {
    "id": "L::福州玉泉昙懿禅师",
    "name": "福州玉泉昙懿",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23115,7 +23115,7 @@
   {
    "id": "西禅需禅师",
    "name": "西禅需",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 4
@@ -23123,7 +23123,7 @@
   {
    "id": "L::南剑州剑门安分庵主",
    "name": "南剑州剑门安分",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅需禅师",
    "depth": 9,
    "n_children": 0
@@ -23131,7 +23131,7 @@
   {
    "id": "L::温州龙翔柏堂南雅禅师",
    "name": "温州龙翔柏堂南雅",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅需禅师",
    "depth": 9,
    "n_children": 0
@@ -23139,7 +23139,7 @@
   {
    "id": "L::福州天王志清禅师",
    "name": "福州天王志清",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅需禅师",
    "depth": 9,
    "n_children": 0
@@ -23147,7 +23147,7 @@
   {
    "id": "L::福州鼓山木庵安永禅师",
    "name": "福州鼓山木庵安永",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅需禅师",
    "depth": 9,
    "n_children": 0
@@ -23155,7 +23155,7 @@
   {
    "id": "西禅净禅师",
    "name": "西禅净",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 1
@@ -23163,7 +23163,7 @@
   {
    "id": "L::福州乾元宗颕禅师",
    "name": "福州乾元宗颕",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅净禅师",
    "depth": 9,
    "n_children": 0
@@ -23171,7 +23171,7 @@
   {
    "id": "L::福州雪峰崇圣普慈蕴闻禅师",
    "name": "福州雪峰崇圣普慈蕴闻",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23179,7 +23179,7 @@
   {
    "id": "L::秦国夫人计氏法真",
    "name": "秦国夫人计氏法真",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23187,7 +23187,7 @@
   {
    "id": "L::近礼侍者",
    "name": "近礼侍",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23195,7 +23195,7 @@
   {
    "id": "L::门司黄彦节居士",
    "name": "门司黄彦节",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23203,7 +23203,7 @@
   {
    "id": "L::饶州荐福悟本禅师",
    "name": "饶州荐福悟本",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "径山杲禅师",
    "depth": 8,
    "n_children": 0
@@ -23211,7 +23211,7 @@
   {
    "id": "灵隐远禅师",
    "name": "灵隐远",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 5
@@ -23219,7 +23219,7 @@
   {
    "id": "L::内翰曾开居士",
    "name": "内翰曾开",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "灵隐远禅师",
    "depth": 8,
    "n_children": 0
@@ -23227,7 +23227,7 @@
   {
    "id": "L::庆元府东山全庵齐己禅师",
    "name": "庆元府东山全庵齐己",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "灵隐远禅师",
    "depth": 8,
    "n_children": 0
@@ -23235,7 +23235,7 @@
   {
    "id": "L::抚州疏山归云如本禅师",
    "name": "抚州疏山归云如本",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "灵隐远禅师",
    "depth": 8,
    "n_children": 0
@@ -23243,7 +23243,7 @@
   {
    "id": "L::知府葛郯居士",
    "name": "知府葛郯",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "灵隐远禅师",
    "depth": 8,
    "n_children": 0
@@ -23251,7 +23251,7 @@
   {
    "id": "L::觉阿上人",
    "name": "觉阿上人",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "灵隐远禅师",
    "depth": 8,
    "n_children": 0
@@ -23259,7 +23259,7 @@
   {
    "id": "L::令人本明",
    "name": "令人本明",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23267,7 +23267,7 @@
   {
    "id": "L::侍郎李弥逊",
    "name": "侍郎李弥逊",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23275,7 +23275,7 @@
   {
    "id": "L::南康军云居宗振首座",
    "name": "南康军云居宗振首座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23283,7 +23283,7 @@
   {
    "id": "L::台州天封觉禅师",
    "name": "台州天封觉",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23291,7 +23291,7 @@
   {
    "id": "护国元禅师",
    "name": "护国元",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 4
@@ -23299,7 +23299,7 @@
   {
    "id": "L::参政钱端礼居士",
    "name": "参政钱端礼",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "护国元禅师",
    "depth": 8,
    "n_children": 0
@@ -23307,7 +23307,7 @@
   {
    "id": "L::台州国清简堂行机禅师",
    "name": "台州国清简堂行机",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "护国元禅师",
    "depth": 8,
    "n_children": 0
@@ -23315,7 +23315,7 @@
   {
    "id": "L::常州华藏湛堂智深禅师",
    "name": "常州华藏湛堂智深",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "护国元禅师",
    "depth": 8,
    "n_children": 0
@@ -23323,7 +23323,7 @@
   {
    "id": "L::镇江府焦山或庵师体禅师",
    "name": "镇江府焦山或庵师体",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "护国元禅师",
    "depth": 8,
    "n_children": 0
@@ -23331,7 +23331,7 @@
   {
    "id": "L::台州鸿福子文禅师",
    "name": "台州鸿福子文",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23339,7 +23339,7 @@
   {
    "id": "L::岳州君山佛照觉禅师",
    "name": "岳州君山佛照觉",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23347,7 +23347,7 @@
   {
    "id": "L::平江府南峰云辩禅师",
    "name": "平江府南峰云辩",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23355,7 +23355,7 @@
   {
    "id": "L::平江府宝华显禅师",
    "name": "平江府宝华显",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23363,7 +23363,7 @@
   {
    "id": "虎丘隆禅师",
    "name": "虎丘隆",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 1
@@ -23371,7 +23371,7 @@
   {
    "id": "天童华禅师",
    "name": "天童华",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "虎丘隆禅师",
    "depth": 8,
    "n_children": 3
@@ -23379,7 +23379,7 @@
   {
    "id": "L::侍郎李浩居士",
    "name": "侍郎李浩",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "天童华禅师",
    "depth": 9,
    "n_children": 0
@@ -23387,7 +23387,7 @@
   {
    "id": "L::南书记者",
    "name": "南书记",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "天童华禅师",
    "depth": 9,
    "n_children": 0
@@ -23395,7 +23395,7 @@
   {
    "id": "L::庆元府天童密庵咸杰禅师",
    "name": "庆元府天童密庵咸杰",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "天童华禅师",
    "depth": 9,
    "n_children": 0
@@ -23403,7 +23403,7 @@
   {
    "id": "L::平江府虎丘雪庭元净禅师",
    "name": "平江府虎丘雪庭元净",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23411,7 +23411,7 @@
   {
    "id": "L::平江府西山明因昙玩禅师",
    "name": "平江府西山明因昙玩",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23419,7 +23419,7 @@
   {
    "id": "育王裕禅师",
    "name": "育王裕",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 3
@@ -23427,7 +23427,7 @@
   {
    "id": "L::临安府净慈水庵师一禅师",
    "name": "临安府净慈水庵师一",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "育王裕禅师",
    "depth": 8,
    "n_children": 0
@@ -23435,7 +23435,7 @@
   {
    "id": "道场全禅师",
    "name": "道场全",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "育王裕禅师",
    "depth": 8,
    "n_children": 1
@@ -23443,7 +23443,7 @@
   {
    "id": "L::常州华藏伊庵有权禅师",
    "name": "常州华藏伊庵有权",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "道场全禅师",
    "depth": 9,
    "n_children": 0
@@ -23451,7 +23451,7 @@
   {
    "id": "L::福州清凉坦禅师",
    "name": "福州清凉坦",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "育王裕禅师",
    "depth": 8,
    "n_children": 0
@@ -23459,7 +23459,7 @@
   {
    "id": "华藏民禅师",
    "name": "华藏民",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 1
@@ -23467,7 +23467,7 @@
   {
    "id": "L::临安府径山别峰宝印禅师",
    "name": "临安府径山别峰宝印",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "华藏民禅师",
    "depth": 8,
    "n_children": 0
@@ -23475,7 +23475,7 @@
   {
    "id": "昭觉元禅师",
    "name": "昭觉元",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23483,7 +23483,7 @@
   {
    "id": "L::成都府昭觉道祖首座",
    "name": "成都府昭觉道祖首座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23491,7 +23491,7 @@
   {
    "id": "L::成都府正法建禅师",
    "name": "成都府正法建",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23499,7 +23499,7 @@
   {
    "id": "L::成都府范县君者",
    "name": "成都府范县君",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23507,7 +23507,7 @@
   {
    "id": "L::枢密徐俯",
    "name": "枢密徐俯",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23515,7 +23515,7 @@
   {
    "id": "大沩泰禅师",
    "name": "大沩泰",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 3
@@ -23523,7 +23523,7 @@
   {
    "id": "L::成都府昭觉辩禅师",
    "name": "成都府昭觉辩",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩泰禅师",
    "depth": 8,
    "n_children": 0
@@ -23531,7 +23531,7 @@
   {
    "id": "L::成都府正法灏禅师",
    "name": "成都府正法灏",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩泰禅师",
    "depth": 8,
    "n_children": 0
@@ -23539,7 +23539,7 @@
   {
    "id": "L::潭州慧通清旦禅师",
    "name": "潭州慧通清旦",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩泰禅师",
    "depth": 8,
    "n_children": 0
@@ -23547,7 +23547,7 @@
   {
    "id": "L::潭州福严文演禅师",
    "name": "潭州福严文演",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23555,7 +23555,7 @@
   {
    "id": "L::眉州象耳山袁觉禅师",
    "name": "眉州象耳山袁觉",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23563,7 +23563,7 @@
   {
    "id": "L::福州玄沙僧昭禅师",
    "name": "福州玄沙僧昭",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23571,7 +23571,7 @@
   {
    "id": "L::绍兴府东山觉禅师",
    "name": "绍兴府东山觉",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23579,7 +23579,7 @@
   {
    "id": "L::衢州天宁讷堂梵思禅师",
    "name": "衢州天宁讷堂梵思",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23587,7 +23587,7 @@
   {
    "id": "L::觉庵道人祖氏",
    "name": "觉庵道人祖氏",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23595,7 +23595,7 @@
   {
    "id": "L::郡王赵令衿",
    "name": "郡王赵令衿",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "昭觉勤禅师",
    "depth": 7,
    "n_children": 0
@@ -23603,7 +23603,7 @@
   {
    "id": "L::普融知藏",
    "name": "普融知藏",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -23611,7 +23611,7 @@
   {
    "id": "L::汉州无为宗泰禅师",
    "name": "汉州无为宗泰",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -23619,7 +23619,7 @@
   {
    "id": "L::法閦上座",
    "name": "法閦上座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -23627,7 +23627,7 @@
   {
    "id": "开福宁禅师",
    "name": "开福宁",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 1
@@ -23635,7 +23635,7 @@
   {
    "id": "大沩果禅师",
    "name": "大沩果",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "开福宁禅师",
    "depth": 7,
    "n_children": 8
@@ -23643,7 +23643,7 @@
   {
    "id": "L::常州宜兴保安复庵可封禅师",
    "name": "常州宜兴保安复庵可封",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23651,7 +23651,7 @@
   {
    "id": "大沩行禅师",
    "name": "大沩行",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 1
@@ -23659,7 +23659,7 @@
   {
    "id": "L::常德府德山子涓禅师",
    "name": "常德府德山子涓",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩行禅师",
    "depth": 9,
    "n_children": 0
@@ -23667,7 +23667,7 @@
   {
    "id": "L::潭州石霜宗鉴禅师",
    "name": "潭州石霜宗鉴",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23675,7 +23675,7 @@
   {
    "id": "L::潭州道林渊禅师",
    "name": "潭州道林渊",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23683,7 +23683,7 @@
   {
    "id": "L::荆门军玉泉穷谷宗琏禅师",
    "name": "荆门军玉泉穷谷宗琏",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23691,7 +23691,7 @@
   {
    "id": "L::隆兴府泐潭山堂德淳禅师",
    "name": "隆兴府泐潭山堂德淳",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23699,7 +23699,7 @@
   {
    "id": "L::隆兴府石亭野庵祖璇禅师",
    "name": "隆兴府石亭野庵祖璇",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23707,7 +23707,7 @@
   {
    "id": "L::随州大洪老衲祖证禅师",
    "name": "随州大洪老衲祖证",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "大沩果禅师",
    "depth": 8,
    "n_children": 0
@@ -23715,7 +23715,7 @@
   {
    "id": "太平懃禅师",
    "name": "太平懃",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 10
@@ -23723,7 +23723,7 @@
   {
    "id": "L::台州宝藏本禅师",
    "name": "台州宝藏本",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23731,7 +23731,7 @@
   {
    "id": "L::吉州大中祥符清海禅师",
    "name": "吉州大中祥符清海",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23739,7 +23739,7 @@
   {
    "id": "何山珣禅师",
    "name": "何山珣",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 1
@@ -23747,7 +23747,7 @@
   {
    "id": "L::待制潘良贵居士",
    "name": "待制潘良贵",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "何山珣禅师",
    "depth": 8,
    "n_children": 0
@@ -23755,7 +23755,7 @@
   {
    "id": "文殊道禅师",
    "name": "文殊道",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 2
@@ -23763,7 +23763,7 @@
   {
    "id": "L::常德府文殊思业禅师",
    "name": "常德府文殊思业",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "文殊道禅师",
    "depth": 8,
    "n_children": 0
@@ -23771,7 +23771,7 @@
   {
    "id": "L::潭州楚安慧方禅师",
    "name": "潭州楚安慧方",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "文殊道禅师",
    "depth": 8,
    "n_children": 0
@@ -23779,7 +23779,7 @@
   {
    "id": "L::明州蓬莱卿禅师",
    "name": "明州蓬莱卿",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23787,7 +23787,7 @@
   {
    "id": "L::漳州净众佛真了灿禅师",
    "name": "漳州净众佛真了灿",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23795,7 +23795,7 @@
   {
    "id": "L::潭州龙牙智才禅师",
    "name": "潭州龙牙智才",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23803,7 +23803,7 @@
   {
    "id": "泐潭明禅师",
    "name": "泐潭明",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 1
@@ -23811,7 +23811,7 @@
   {
    "id": "L::汉州无为随庵守缘禅师",
    "name": "汉州无为随庵守缘",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "泐潭明禅师",
    "depth": 8,
    "n_children": 0
@@ -23819,7 +23819,7 @@
   {
    "id": "L::隆兴府谷山海禅师",
    "name": "隆兴府谷山海",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23827,7 +23827,7 @@
   {
    "id": "L::韶州南华知昺禅师",
    "name": "韶州南华知昺",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "太平懃禅师",
    "depth": 7,
    "n_children": 0
@@ -23835,7 +23835,7 @@
   {
    "id": "龙门远禅师",
    "name": "龙门远",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 13
@@ -23843,7 +23843,7 @@
   {
    "id": "L::世奇首座者",
    "name": "世奇首座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 0
@@ -23851,7 +23851,7 @@
   {
    "id": "云居如禅师",
    "name": "云居如",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 2
@@ -23859,7 +23859,7 @@
   {
    "id": "L::太平州隐静圆极彦岑禅师",
    "name": "太平州隐静圆极彦岑",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "云居如禅师",
    "depth": 8,
    "n_children": 0
@@ -23867,7 +23867,7 @@
   {
    "id": "L::鄂州报恩成禅师",
    "name": "鄂州报恩成",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "云居如禅师",
    "depth": 8,
    "n_children": 0
@@ -23875,7 +23875,7 @@
   {
    "id": "L::南康军云居高庵善悟禅师",
    "name": "南康军云居高庵善悟",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 0
@@ -23883,7 +23883,7 @@
   {
    "id": "L::南康军归宗真牧正贤禅师",
    "name": "南康军归宗真牧正贤",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 0
@@ -23891,7 +23891,7 @@
   {
    "id": "道场辩禅师",
    "name": "道场辩",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 2
@@ -23899,7 +23899,7 @@
   {
    "id": "L::安吉州何山然首座",
    "name": "安吉州何山然首座",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "道场辩禅师",
    "depth": 8,
    "n_children": 0
@@ -23907,7 +23907,7 @@
   {
    "id": "L::平江府觉报清禅师",
    "name": "平江府觉报清",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "道场辩禅师",
    "depth": 8,
    "n_children": 0
@@ -23915,7 +23915,7 @@
   {
    "id": "白杨顺禅师",
    "name": "白杨顺",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 1
@@ -23923,7 +23923,7 @@
   {
    "id": "L::吉州青原如禅师",
    "name": "吉州青原如",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白杨顺禅师",
    "depth": 8,
    "n_children": 0
@@ -23931,7 +23931,7 @@
   {
    "id": "净居尼温禅师",
    "name": "净居尼温",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 1
@@ -23939,7 +23939,7 @@
   {
    "id": "L::温州净居尼无相法灯禅师",
    "name": "温州净居尼无相法灯",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "净居尼温禅师",
    "depth": 8,
    "n_children": 0
@@ -23947,7 +23947,7 @@
   {
    "id": "龙翔珪禅师",
    "name": "龙翔珪",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 7
@@ -23955,7 +23955,7 @@
   {
    "id": "L::云居悟禅师法嗣",
    "name": "云居悟法嗣",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -23963,7 +23963,7 @@
   {
    "id": "L::南康军云居普云自圆禅师",
    "name": "南康军云居普云自圆",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -23971,7 +23971,7 @@
   {
    "id": "L::南康军云居顽庵德升禅师",
    "name": "南康军云居顽庵德升",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -23979,7 +23979,7 @@
   {
    "id": "L::台州万年无著道闲禅师",
    "name": "台州万年无著道闲",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -23987,7 +23987,7 @@
   {
    "id": "双林用禅师",
    "name": "双林用",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 1
@@ -23995,7 +23995,7 @@
   {
    "id": "L::婺州三峰印禅师",
    "name": "婺州三峰印",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "双林用禅师",
    "depth": 9,
    "n_children": 0
@@ -24003,7 +24003,7 @@
   {
    "id": "L::福州中际善能禅师",
    "name": "福州中际善能",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -24011,7 +24011,7 @@
   {
    "id": "L::通州狼山萝庵慧温禅师",
    "name": "通州狼山萝庵慧温",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙翔珪禅师",
    "depth": 8,
    "n_children": 0
@@ -24019,7 +24019,7 @@
   {
    "id": "L::潭州方广深禅师",
    "name": "潭州方广深",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 0
@@ -24027,7 +24027,7 @@
   {
    "id": "L::给事冯楫济川居士",
    "name": "给事冯楫济川",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 0
@@ -24035,7 +24035,7 @@
   {
    "id": "乌巨行禅师",
    "name": "乌巨行",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 3
@@ -24043,7 +24043,7 @@
   {
    "id": "L::信州龟峰晦庵慧光禅师",
    "name": "信州龟峰晦庵慧光",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "乌巨行禅师",
    "depth": 8,
    "n_children": 0
@@ -24051,7 +24051,7 @@
   {
    "id": "L::真州长芦且庵守仁禅师",
    "name": "真州长芦且庵守仁",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "乌巨行禅师",
    "depth": 8,
    "n_children": 0
@@ -24059,7 +24059,7 @@
   {
    "id": "L::饶州荐福退庵休禅师",
    "name": "饶州荐福退庵休",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "乌巨行禅师",
    "depth": 8,
    "n_children": 0
@@ -24067,7 +24067,7 @@
   {
    "id": "西禅琏禅师",
    "name": "西禅琏",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 1
@@ -24075,7 +24075,7 @@
   {
    "id": "L::遂宁府西禅第二代希秀禅师",
    "name": "遂宁府西禅第二代希秀",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "西禅琏禅师",
    "depth": 8,
    "n_children": 0
@@ -24083,7 +24083,7 @@
   {
    "id": "黄龙忠禅师",
    "name": "黄龙忠",
-   "house": "黄龙派",
+   "house": "杨岐派",
    "parent": "龙门远禅师",
    "depth": 7,
    "n_children": 1
@@ -24091,7 +24091,7 @@
   {
    "id": "L::成都府信相戒修禅师",
    "name": "成都府信相戒修",
-   "house": "黄龙派",
+   "house": "杨岐派",
    "parent": "黄龙忠禅师",
    "depth": 8,
    "n_children": 0
@@ -24099,7 +24099,7 @@
   {
    "id": "五祖自禅师",
    "name": "五祖自",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 1
@@ -24107,7 +24107,7 @@
   {
    "id": "L::蕲州龙华高禅师",
    "name": "蕲州龙华高",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖自禅师",
    "depth": 7,
    "n_children": 0
@@ -24115,7 +24115,7 @@
   {
    "id": "L::蕲州龙华道初禅师",
    "name": "蕲州龙华道初",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "五祖演禅师",
    "depth": 6,
    "n_children": 0
@@ -24123,7 +24123,7 @@
   {
    "id": "L::袁州崇胜院珙禅师",
    "name": "袁州崇胜院珙",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "白云端禅师",
    "depth": 5,
    "n_children": 0
@@ -24131,7 +24131,7 @@
   {
    "id": "保宁勇禅师",
    "name": "保宁勇",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "杨歧会禅师",
    "depth": 4,
    "n_children": 5
@@ -24139,7 +24139,7 @@
   {
    "id": "L::信州灵鹫山宝积宗映禅师",
    "name": "信州灵鹫山宝积宗映",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "保宁勇禅师",
    "depth": 5,
    "n_children": 0
@@ -24147,7 +24147,7 @@
   {
    "id": "L::安吉州上方日益禅师",
    "name": "安吉州上方日益",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "保宁勇禅师",
    "depth": 5,
    "n_children": 0
@@ -24155,7 +24155,7 @@
   {
    "id": "L::安吉州乌镇寿圣院楚文禅师",
    "name": "安吉州乌镇寿圣院楚文",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "保宁勇禅师",
    "depth": 5,
    "n_children": 0
@@ -24163,7 +24163,7 @@
   {
    "id": "L::郢州月掌山寿圣智渊禅师",
    "name": "郢州月掌山寿圣智渊",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "保宁勇禅师",
    "depth": 5,
    "n_children": 0
@@ -24171,7 +24171,7 @@
   {
    "id": "L::隆兴府景福日余禅师",
    "name": "隆兴府景福日余",
-   "house": "源头",
+   "house": "杨岐派",
    "parent": "保宁勇禅师",
    "depth": 5,
    "n_children": 0
