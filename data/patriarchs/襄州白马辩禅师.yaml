@@ -1,0 +1,14 @@
+id: 襄州白马辩禅师
+name: 襄州白马辩
+school: 云门宗
+teacher: 五祖戒
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0588b10。
+sayings:
+- text: 僧问。如何是佛。师曰。水来河涨。曰。如何是法。师曰。风来树动
+  ref: X80n1565_p0588b10（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0588b10），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·襄州白马辩禅师
+cbeta: X80n1565_p0588b10
+evidence: primary
+verify_status: extracted

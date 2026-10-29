@@ -1,0 +1,19 @@
+id: 五祖弘忍
+name: 弘忍
+honorific: 东土五祖 · 大满禅师（谥）
+school: 东土祖师
+dynasty: 唐
+region: 黄梅冯茂山（东山）
+teacher: 道信
+source_ref: 五灯会元·卷一·五祖弘忍 / 景德传灯录·卷三
+cbeta: T51n2076 卷三
+bio: '七岁依道信出家，尽得其法，后住黄梅冯茂山（东山），弘化一方，世称「东山法门」。
+
+  门下盛极，神秀、慧能皆出其门。以「菩提本无树」偈勘验大众，遂传衣法于慧能。'
+sayings:
+- text: 尝令徒众各述一偈呈心，神秀书：「身是菩提树，心如明镜台；时时勤拂拭，莫使惹尘埃。」
+  ref: 六祖坛经·行由品 / 五灯会元·卷一·弘忍
+status: draft
+verify: 待 CBETA 校对。
+evidence: primary
+verify_status: anchor_only

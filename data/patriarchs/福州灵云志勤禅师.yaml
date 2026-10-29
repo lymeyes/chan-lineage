@@ -1,0 +1,14 @@
+id: 福州灵云志勤禅师
+name: 灵云志勤
+school: 南岳系
+teacher: 长庆安
+bio: 沩山灵祐禅师法嗣。因见桃花而悟道，作偈呈沩山，沩山嘱其「从缘入者，永无退失」。
+sayings:
+- text: 师（灵云）因见桃花悟道，作偈：「三十年来寻剑客，几回落叶又抽枝；自从一见桃花后，直至如今更不疑。」
+  ref: 五灯会元·卷四·灵云志勤禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷十二 / 五灯会元卷四（灵云桃花）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

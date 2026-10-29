@@ -1,0 +1,23 @@
+id: 七佛
+name: 过去七佛
+honorific: 过去七佛（庄严劫三佛 + 贤劫四佛）
+school: 源头
+dynasty: 佛教传说时代（劫）
+source_ref: 景德传灯录·卷一·七佛 / 五灯会元·卷一·七佛
+cbeta: T51n2076（景德传灯录）卷一
+bio: '禅宗「教外别传、不立文字」之远源，上溯至过去七佛。灯录以七佛偈提纲，显「心法无形、罪福皆空」之旨，为后世祖师机缘之先声。
+
+  七佛依次为：毗婆尸（Vipasyin）、尸弃（Sikhin）、毗舍浮（Visvabhu）、拘留孙（Krakucchanda）、拘那含牟尼（Kanakamuni）、迦叶（Kasyapa）、释迦牟尼（Sakyamuni）。'
+sayings:
+- text: 身从无相中受生，犹如幻出诸形像；幻人心识本来无，罪福皆空无所住。
+  ref: 景德传灯录·卷一·毗婆尸佛
+- text: 假借四大以为身，心本无生因境有；前境若无心亦无，罪福如幻起亦灭。
+  ref: 景德传灯录·卷一·毗舍浮佛
+- text: 一切众生性清净，从本无生无可灭；即此身心是幻生，幻化之中无罪福。
+  ref: 景德传灯录·卷一·迦叶佛
+- text: 法本法无法，无法法亦法；今付无法时，法法何曾法。
+  ref: 景德传灯录·卷一·释迦牟尼佛
+status: draft
+verify: 待 CBETA 逐字校对七佛偈；status 拟核后改 core。
+evidence: primary
+verify_status: anchor_only

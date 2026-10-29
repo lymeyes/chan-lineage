@@ -1,0 +1,14 @@
+id: 京兆府章敬寺怀晖禅师
+name: 章敬怀晖
+school: 南岳系
+teacher: 马祖一
+bio: 马祖道一禅师法嗣，住章敬寺。为马祖门下「入室」之上首之一，唐宪宗尝召入内。
+sayings:
+- text: 僧问：「如何是章敬境？」师曰：「唤什么作境？」
+  ref: 五灯会元·卷三·章敬怀晖禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷七 / 五灯会元卷四
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

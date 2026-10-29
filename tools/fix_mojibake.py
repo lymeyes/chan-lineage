@@ -97,7 +97,7 @@ def main():
     # ---- 校验 ----
     yids = {os.path.basename(x)[:-5] for x in glob_yamls()}
     orphan_yaml = sorted(yids - node_ids)
-    orphan_node = sorted(node_ids - yids - {"ROOT::禅宗法脉"})
+    orphan_node = sorted(node_ids - yids - {"禅宗法脉"})
     print("对账后 有 YAML 无节点:", len(orphan_yaml), orphan_yaml[:10])
     print("对账后 有节点无 YAML(去ROOT):", len(orphan_node), orphan_node[:10])
 

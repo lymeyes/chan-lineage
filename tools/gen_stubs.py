@@ -16,7 +16,7 @@ import json, os, glob, yaml
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PATRIARCHS = os.path.join(BASE, "data", "patriarchs")
 LINEAGE = os.path.join(BASE, "data", "lineage.json")
-ROOT = "ROOT::禅宗法脉"
+ROOT = "禅宗法脉"
 
 d = json.load(open(LINEAGE, encoding="utf-8"))
 nodes = d["nodes"]

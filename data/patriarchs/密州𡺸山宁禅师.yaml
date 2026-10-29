@@ -1,0 +1,17 @@
+id: 密州𡺸山宁禅师
+name: 密州𡺸山宁
+honorific: 密州𡺸山宁禅师
+school: 云门宗
+dynasty: 宋
+region: 密州𡺸山
+teacher: 雪窦重显（雪窦明禅师）
+source_ref: 五灯会元·卷十六·雪窦明禅师法嗣（X80n1565_p0648b15）
+cbeta: X80n1565_p0648b15-17（五燈會元卷十六）
+bio: 密州𡺸山宁禅师，雪窦重显（明禅师）法嗣，云门宗传人。
+sayings:
+- text: 上堂：「有时孤峰顶上啸月眠云，有时大洋海中翻波走浪，有时十字街头七穿八穴。诸人还相委悉么？樟树花开盛，芭蕉叶最多。」
+  ref: 五灯会元·卷十六·雪窦明禅师法嗣
+status: draft
+verify: 已对校 CBETA XML P5：《五灯会元》卷十六 X80n1565_p0648b15-17 逐字命中。法讳首字 CBETA 原文作「𡺸」（U+21EB8，⿰山耆，音 qí，《字彙》巨支切，出《释典》），此前转写作「煮」系误判，已更正；语句上堂文逐字无差。
+evidence: primary
+verify_status: line_verified

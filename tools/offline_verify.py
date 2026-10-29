@@ -113,7 +113,7 @@ def main():
     if os.path.exists(LINEAGE):
         try:
             d = json.load(open(LINEAGE, encoding="utf-8"))
-            n_nodes = len([x for x in d["nodes"] if x["id"] != "ROOT::禅宗法脉"])
+            n_nodes = len([x for x in d["nodes"] if x["id"] != "禅宗法脉"])
             say(n_nodes == counts["nodes"], "与 chan-lineage 节点数一致",
                 "仓库 %d / 清单 %d" % (n_nodes, counts["nodes"]))
         except Exception as e:

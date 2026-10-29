@@ -1,0 +1,14 @@
+id: 杭州无著文喜禅师
+name: 无著文喜
+school: 沩仰宗
+teacher: 仰山寂
+bio: 仰山慧寂禅师法嗣。曾于五台山见老翁（示为文殊化现）执役，悟后归仰山印可，为沩仰宗著名行者。
+sayings:
+- text: 文喜至五台，见老翁执役，问：「莫是文殊么？」翁曰：「岂可有二文殊！」
+  ref: 五灯会元·卷九·无著文喜禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录 / 五灯会元（卷次待核）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

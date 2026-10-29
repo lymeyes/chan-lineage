@@ -1,0 +1,12 @@
+id: 楼子和尚
+name: 楼子
+school: —
+teacher: 未详
+status: draft
+bio: 悟道你若无心我也休，鸳鸯帐里懒擡头。家童为问深深意，笑指纱窗月正秋
+sayings: []
+verify: 机器抽取自 CBETA《嘉泰普灯录》原文条目（起于 X79n1559_p0389b02），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 嘉泰普灯录·悟道楼子和尚
+cbeta: X79n1559_p0389b02
+evidence: primary
+verify_status: extracted

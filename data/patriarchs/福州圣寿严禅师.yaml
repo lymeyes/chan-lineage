@@ -1,0 +1,12 @@
+id: 福州圣寿严禅师
+name: 福州圣寿严
+school: 青原系
+teacher: 岩头奯
+status: draft
+bio: 补衲次。僧参。师提起示之曰。山僧一衲衣。展似众人见。云水两条分。莫教露针线。速道。速道。僧无对。师曰。如许多时作甚么来
+sayings: []
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0242b08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·福州圣寿严禅师
+cbeta: X80n1565_p0242b08
+evidence: primary
+verify_status: extracted

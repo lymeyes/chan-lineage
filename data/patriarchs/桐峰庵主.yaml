@@ -1,0 +1,14 @@
+id: 桐峰庵主
+name: 桐峰庵主
+school: 临济宗
+teacher: 临济义玄
+bio: 临济义玄禅师法嗣，隐居桐峰结庵。临济曾往勘之，机锋相触。
+sayings:
+- text: 临济入庵，问：「庵主在么？」主曰：「作甚么？」济曰：「忽遇客来，将何祇待？」主曰：「金果早朝猿摘去，玉花晚后凤衔来。」济曰：「客来作么生？」主曰：「话头也不识。」济便掌，主曰：「太生。」济曰：「瞎汉。」
+  ref: 五灯会元·卷十一·桐峰庵主
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 临济录 / 五灯会元卷十一
+cbeta: T47n1985（临济录）
+evidence: primary
+verify_status: anchor_only

@@ -1,0 +1,12 @@
+id: 寺丞戴道纯居士
+name: 寺丞戴道纯
+school: 黄龙派
+teacher: 黄龙清
+status: draft
+bio: 字孚中。咨扣灵源。一日有省。乃呈偈曰。杳冥源底全机处。一片心华露印纹。知是几生曾供养。时时微笑动香云
+sayings: []
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0698a10），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·寺丞戴道纯居士
+cbeta: X80n1565_p0698a10
+evidence: primary
+verify_status: extracted

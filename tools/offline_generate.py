@@ -79,7 +79,7 @@ def build_payload(lineage, cards):
     draft = named_only = 0
     house_dist = {}
     for nid, node in node_by_id.items():
-        if nid.startswith("ROOT::"):
+        if nid == "禅宗法脉":   # 根节点（2026-10-29 去 ROOT:: 前缀后按名字判定）
             continue
         card = cards.get(nid, {})
         status = card.get("status", "named_only")

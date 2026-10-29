@@ -104,7 +104,9 @@ def split_content(text: str):
     text = scrub(text)
     m = BIO_END.search(text)
     if m is None:
-        return text.strip("　 。，"), []
+        # 无问答标志：整段即 bio（纯叙述型条目）。同样要剥标题残留的句末「者」
+        # （「匾担山晓了禪師者，傳記不載…」曾漏剥，2026-10-30 补）
+        return text.strip("　 。，").lstrip("者").strip("　 。，"), []
     bio = text[: m.start()] if m.start() > 0 else ""
     rest = text[m.start() :]
     parts, last = [], 0

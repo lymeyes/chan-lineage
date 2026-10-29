@@ -3,7 +3,7 @@
 """宗脉谱系数据完整性审计（回归守卫）。
 
 检查项：
-  1. 节点 id 唯一；root 唯一（ROOT::禅宗法脉）
+  1. 节点 id 唯一；root 唯一（禅宗法脉）
   2. 每个非 root 节点的 parent 必须存在；无环（深度有限）
   3. 节点 id / name 无可疑字符：U+FFFD 替换符、代理对、私用区、控制符
   4. tree（嵌套）id 集合 == flat nodes id 集合
@@ -16,7 +16,7 @@ import json, os, re, sys, glob, unicodedata
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIN = os.path.join(ROOT, "data", "lineage.json")
 PAT = os.path.join(ROOT, "data", "patriarchs")
-ROOT_ID = "ROOT::禅宗法脉"
+ROOT_ID = "禅宗法脉"
 
 problems = []
 
@@ -38,10 +38,10 @@ def main():
         from collections import Counter
         dup = [k for k, v in Counter(ids).items() if v > 1]
         problems.append("节点 id 重复: %s" % dup)
-    # parent 为空（None/缺失）应恰好是合成根 ROOT::禅宗法脉（其余顶层分支 parent=ROOT）
+    # parent 为空（None/缺失）应恰好是合成根 禅宗法脉（其余顶层分支 parent=ROOT）
     no_parent = [n["id"] for n in nodes if not n.get("parent")]
     if no_parent != [ROOT_ID]:
-        problems.append("parent 为空的节点应仅为 ROOT::禅宗法脉: %s" % no_parent)
+        problems.append("parent 为空的节点应仅为 禅宗法脉: %s" % no_parent)
     if ROOT_ID not in idset:
         problems.append("合成根 %s 缺失" % ROOT_ID)
 

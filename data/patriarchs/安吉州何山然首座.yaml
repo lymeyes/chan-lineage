@@ -1,0 +1,14 @@
+id: 安吉州何山然首座
+name: 安吉州何山然首座
+school: 杨岐派
+teacher: 道场辩
+status: draft
+bio: 姑苏人。侍正堂之久。入室次。堂
+sayings:
+- text: 问。猫儿为甚么偏爱捉老鼠。曰。物见主。眼卓竖。堂欣然。因命分座
+  ref: X80n1565_p0821a17（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0821a17），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·安吉州何山然首座
+cbeta: X80n1565_p0821a17
+evidence: primary
+verify_status: extracted
