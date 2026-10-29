@@ -2,7 +2,15 @@ id: L::温州龙鸣在庵贤禅师
 name: 温州龙鸣在庵贤
 school: 黄龙派
 teacher: 万年贲
-status: named_only
-bio: 《灯录》仅列其名，列为「万年贲」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0720b17。
+sayings:
+- text: 示众曰。识得凳子。周匝有余。云门道。识得凳子。天地悬殊。师曰。崇寿老汉。坐杀天下人。云门大师。走杀天下人。龙鸣则不然。识得凳子。四脚著地。要坐便坐。要起便起
+  ref: X80n1565_p0720b17（五灯会元）
+- text: 上堂。举赵州勘婆话颂曰。冰雪佳人貌最奇。常将玉笛向人吹。曲中无限华心动。独许东君第一枝
+  ref: X80n1565_p0720b17（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0720b17），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·温州龙鸣在庵贤禅师
+cbeta: X80n1565_p0720b17
+evidence: primary
+verify_status: extracted

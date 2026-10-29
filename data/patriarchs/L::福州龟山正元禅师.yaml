@@ -2,7 +2,11 @@ id: L::福州龟山正元禅师
 name: 福州龟山正元
 school: 南岳系
 teacher: 五泄默
-status: named_only
-bio: 《灯录》仅列其名，列为「五泄默」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 宣州蔡氏子。尝述偈示徒。一曰。沧溟几度变桑田。唯有虗空独湛然。已到岸人休恋筏。未曾度者要须船。二曰。寻师认得本心源。两岸俱玄一不全。是佛不须更觅佛。祇因如此便忘缘。咸通十年终于本山。谥性空大师
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0142b08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·福州龟山正元禅师
+cbeta: X80n1565_p0142b08
+evidence: primary
+verify_status: extracted

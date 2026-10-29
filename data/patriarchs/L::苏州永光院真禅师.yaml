@@ -2,7 +2,19 @@ id: L::苏州永光院真禅师
 name: 苏州永光院真
 school: 曹洞宗
 teacher: 云居膺
-status: named_only
-bio: 《灯录》仅列其名，列为「云居膺」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0500b09。
+sayings:
+- text: 上堂。言锋若差。乡关万里。直须悬崖撒手。自肯承当。绝后再苏。欺君不得。非常之旨。人焉廋哉
+  ref: X80n1565_p0500b09（五灯会元）
+- text: 问。道无横径。立者皆危。如何得不被横径所侵去。师以杖拄僧口。僧曰。此犹是横径。师曰。合取口
+  ref: X80n1565_p0500b09（五灯会元）
+- text: 问。如何是常在底人。师曰。来往不易
+  ref: X80n1565_p0500b09（五灯会元）
+- text: 问。如何是祖师西来意。师曰。铁山夜锁千家月。金乌常照不当门
+  ref: X80n1565_p0500b09（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0500b09），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·苏州永光院真禅师
+cbeta: X80n1565_p0500b09
+evidence: primary
+verify_status: extracted

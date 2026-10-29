@@ -2,7 +2,13 @@ id: L::果州永庆光普禅师
 name: 果州永庆光普
 school: 临济宗
 teacher: 谷隐聪
-status: named_only
-bio: 《灯录》仅列其名，列为「谷隐聪」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 初问谷隐。古人道。来日大悲院里有斋。意旨如何。曰。日出隈阳坐。天寒不举头。师入室次。隐曰。适来因缘汝作么生会。师曰。会则途中受用。不会则世谛流布。曰。未在更道。师拂袖便出。住后
+sayings:
+- text: 僧问。如何是佛法大意。师曰。蜀地用镔铁
+  ref: X80n1565_p0437b05（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0437b05），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·果州永庆光普禅师
+cbeta: X80n1565_p0437b05
+evidence: primary
+verify_status: extracted

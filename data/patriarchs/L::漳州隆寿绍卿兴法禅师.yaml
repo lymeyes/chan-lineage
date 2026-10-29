@@ -2,7 +2,17 @@ id: L::漳州隆寿绍卿兴法禅师
 name: 漳州隆寿绍卿兴法
 school: —
 teacher: 雪峰存
-status: named_only
-bio: 《灯录》仅列其名，列为「雪峰存」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 泉州陈氏子。因侍雪峰。山行见芋叶动。峰指动叶示之。师曰。绍卿甚生怕怖。峰曰。是汝屋里底。怕怖甚么。师于此有省。寻居龙谿
+sayings:
+- text: 僧问。古人道。摩尼殿有四角。一角常露。如何是常露底角
+  ref: X80n1565_p0265a12（五灯会元）
+- text: 师举拂子。问。粮不畜一粒。如何济得万人饥。师曰。侠客面前如夺剑。看君不是黠儿郎
+  ref: X80n1565_p0265a12（五灯会元）
+- text: 问。耳目不致处如何。师曰。汝无此作。曰。恁么即闻也。师曰。真个聋汉。福州迁宗院行󱒧
+  ref: X80n1565_p0265a12（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0265a12），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·漳州隆寿绍卿兴法禅师
+cbeta: X80n1565_p0265a12
+evidence: primary
+verify_status: extracted

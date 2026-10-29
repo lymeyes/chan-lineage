@@ -2,7 +2,15 @@ id: L::广州光圣院师护禅师
 name: 广州光圣院师护
 school: 法眼宗
 teacher: 天台韶
-status: named_only
-bio: 《灯录》仅列其名，列为「天台韶」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 闽人也。自天台得法。化行岭表。国主刘氏创大伽蓝。请师居焉。署大义禅师
+sayings:
+- text: 僧问。昔日梵王请佛。今日国主临筵。祖意西来。如何举唱。师曰。不要西来。山僧已举唱了也。曰。岂无方便。师曰。适来岂不是方便
+  ref: X80n1565_p0370b04（五灯会元）
+- text: 问。学人乍入丛林。西来妙诀。乞师指示。师曰。汝未入丛林。我已示汝了也。曰。如何领会。师曰。不要领会
+  ref: X80n1565_p0370b04（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0370b04），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·广州光圣院师护禅师
+cbeta: X80n1565_p0370b04
+evidence: primary
+verify_status: extracted

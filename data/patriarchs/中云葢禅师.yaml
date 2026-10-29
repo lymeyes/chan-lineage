@@ -2,7 +2,19 @@ id: 中云葢禅师
 name: 中云葢
 school: 青原系
 teacher: 石霜诸
-status: named_only
-bio: 《灯录》仅列其名，列为「石霜诸」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0196b11。
+sayings:
+- text: 僧问。和尚开堂。当为何事。师曰。为汝驴汉。曰。诸佛出世。当为何事。师曰。为汝驴汉
+  ref: X80n1565_p0196b11（五灯会元）
+- text: 问。祖佛未出世时如何。师曰。像不得。曰。出世后如何。师曰。阇黎也须侧身始得
+  ref: X80n1565_p0196b11（五灯会元）
+- text: 问。如何是向上一句。师曰。文殊失却口。曰。如何是门头一句。师曰。头上插花子
+  ref: X80n1565_p0196b11（五灯会元）
+- text: 问。如何是超百亿。师曰。超人不得肯
+  ref: X80n1565_p0196b11（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0196b11），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·潭州中云葢禅师
+cbeta: X80n1565_p0196b11
+evidence: primary
+verify_status: extracted

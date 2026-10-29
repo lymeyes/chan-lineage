@@ -2,7 +2,15 @@ id: L::苏州荐福亮禅师
 name: 苏州荐福亮
 school: 临济宗
 teacher: 洞庭月
-status: named_only
-bio: 《灯录》仅列其名，列为「洞庭月」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0455b10。
+sayings:
+- text: 僧问。不假言诠。请师示诲。师曰。大众总见汝恁么
+  ref: X80n1565_p0455b10（五灯会元）
+- text: 问。曰。莫祇这便是也无。师曰。罕逢穿耳客
+  ref: X80n1565_p0455b10（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0455b10），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·苏州荐福亮禅师
+cbeta: X80n1565_p0455b10
+evidence: primary
+verify_status: extracted

@@ -2,7 +2,13 @@ id: L::常州善权慧泰禅师
 name: 常州善权慧泰
 school: 云门宗
 teacher: 云居元
-status: named_only
-bio: 《灯录》仅列其名，列为「云居元」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0625a08。
+sayings:
+- text: 上堂。诸佛出世。广演三乘。达磨西来。密传大事。上根之者。言下顿超。中下之流。须当渐次。发明心地。或一言唱道。或三句敷扬。或善巧应机。遂成多义。撮其枢要。总是空花。一句穷源。沉埋祖道。敢问诸人。作么生是依时及节底句。良久曰。微云淡河汉。疏雨滴梧桐。参
+  ref: X80n1565_p0625a08（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0625a08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·常州善权慧泰禅师
+cbeta: X80n1565_p0625a08
+evidence: primary
+verify_status: extracted

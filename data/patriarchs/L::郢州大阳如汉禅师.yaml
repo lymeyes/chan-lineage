@@ -2,7 +2,13 @@ id: L::郢州大阳如汉禅师
 name: 郢州大阳如汉
 school: —
 teacher: 石霜永
-status: named_only
-bio: 《灯录》仅列其名，列为「石霜永」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0452a09。
+sayings:
+- text: 僧问。如何是敲磕底句。师曰。槛外竹摇风。惊起幽人睡。曰。观音门大启也。师曰。师子𫜪人。廼曰。闻声悟道。失却观音眼睛。见色明心。昧了文殊巴鼻。一出一入。半开半合。泥牛昨夜游沧海。直至如今不见回。咄
+  ref: X80n1565_p0452a09（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0452a09），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·郢州大阳如汉禅师
+cbeta: X80n1565_p0452a09
+evidence: primary
+verify_status: extracted

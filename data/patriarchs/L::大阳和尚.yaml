@@ -2,7 +2,13 @@ id: L::大阳和尚
 name: 大阳
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 因伊禅师相见。乃问伊禅。近日有一般知识。向目前指教人。了取目前事。作这个为人。还会文彩未兆时也无。曰。拟向这里致一
+sayings:
+- text: 问。不知可否。师曰。答汝已了。莫道可否。曰。还识得目前也未。师曰。若是目前。作么生识。曰。要且遭人检点。师曰。谁。曰。某甲。师便喝。伊退步而立。师曰。汝只解瞻前。不解顾后。曰。雪上更加霜。师曰。彼此无便宜
+  ref: X80n1565_p0116a07（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0116a07），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·大阳和尚
+cbeta: X80n1565_p0116a07
+evidence: primary
+verify_status: extracted

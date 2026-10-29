@@ -2,7 +2,15 @@ id: L::江西椑树和尚
 name: 江西椑树
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 卧次。道吾近前。牵被覆之。师曰。作么。吾曰。葢覆。师曰。卧底是。坐底是。吾曰。不在这两处。师曰。争奈葢覆何。吾曰。莫乱道。师向火次。吾
+sayings:
+- text: 问。作么。师曰。和合。吾曰。恁么即当头脱去也。师曰。隔阔来多少时邪。吾便拂袖而去。吾一日从外归
+  ref: X80n1565_p0117b17（五灯会元）
+- text: 师问。甚么处去来。吾曰。亲近来。师曰。用簸这两片皮作么。吾曰。借。师曰。他有从汝借。无作么生。吾曰。只为有。所以借
+  ref: X80n1565_p0117b17（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0117b17），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·江西椑树和尚
+cbeta: X80n1565_p0117b17
+evidence: primary
+verify_status: extracted

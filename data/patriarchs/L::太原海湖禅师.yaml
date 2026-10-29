@@ -2,7 +2,15 @@ id: L::太原海湖禅师
 name: 太原海湖
 school: 青原系
 teacher: 夹山会
-status: named_only
-bio: 《灯录》仅列其名，列为「夹山会」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 因有人请灌顶三藏供养。敷坐讫。师乃就彼位坐。时有云涉座主问曰。和尚甚么年行道。师曰。座主近前来。涉近前。师曰。祇如㤭陈如是甚么年行道。涉茫然。师喝曰。这尿床鬼
+sayings:
+- text: 问。和尚院内人何太少。定水院人何太多。师曰。草深多野鹿。岩高獬豸稀
+  ref: X80n1565_p0206b05（五灯会元）
+- text: 问。如何是无问而自答。师曰。松韵琴声响
+  ref: X80n1565_p0206b05（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0206b05），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·太原海湖禅师
+cbeta: X80n1565_p0206b05
+evidence: primary
+verify_status: extracted

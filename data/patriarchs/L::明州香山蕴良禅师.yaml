@@ -2,7 +2,17 @@ id: L::明州香山蕴良禅师
 name: 明州香山蕴良
 school: —
 teacher: 石霜圆
-status: named_only
-bio: 《灯录》仅列其名，列为「石霜圆」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0444b07。
+sayings:
+- text: 僧问。如何是透法身句。师曰。刹竿头上舞三台。曰。如何是接初机句。师曰。上大人。曰。如何是末后句。师曰。双林树下
+  ref: X80n1565_p0444b07（五灯会元）
+- text: 问。如何是学人转身处。师曰。磨坊里
+  ref: X80n1565_p0444b07（五灯会元）
+- text: 上堂。良久。呵呵大笑曰。笑个甚么。笑他鸿鹄冲天飞。乌龟水底逐鱼儿。三个老婆六只奶。金刚背上烂如泥。阿呵呵。知不知。东村陈大耆。参
+  ref: X80n1565_p0444b07（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0444b07），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·明州香山蕴良禅师
+cbeta: X80n1565_p0444b07
+evidence: primary
+verify_status: extracted

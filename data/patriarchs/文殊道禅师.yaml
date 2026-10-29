@@ -2,7 +2,11 @@ id: 文殊道禅师
 name: 文殊道
 school: 杨岐派
 teacher: 太平懃
-status: named_only
-bio: 《灯录》仅列其名，列为「太平懃」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 四首野狐野狐石崇富贵篯铿寿，潘岳容仪子建才。但愿东风齐著力，一时吹入我门来。勘婆勘婆三月春光上国游，祥云瑞气鏁龙楼。亲从宣德门前过，更问行人觅汴州。狗子无佛性狗子无佛性狗子佛性无，老蚌吐明珠。西川鸣杜宇，江南啼鹧鸪。烧木佛烧木佛彭祖八百乞延寿，秦皇登位更求仙。昨向天津桥上过，石崇犹自送穷船
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《嘉泰普灯录》原文条目（起于 X79n1559_p0391b08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 嘉泰普灯录·文殊道禅师
+cbeta: X79n1559_p0391b08
+evidence: primary
+verify_status: extracted

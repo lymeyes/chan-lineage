@@ -2,7 +2,15 @@ id: L::随州水南智昱禅师
 name: 随州水南智昱
 school: 云门宗
 teacher: 五祖戒
-status: named_only
-bio: 《灯录》仅列其名，列为「五祖戒」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《建中靖国续灯录》X78n1556_p0068a05。
+sayings:
+- text: 上堂，云：欲识解脱道，今日参较早。唯念路行难，水深鱼不少。参
+  ref: X78n1556_p0068a05（建中靖国续灯录）
+- text: 上堂云：欲识解脱道，鸡鸣已天晓。赵州庭前柏，打落青州枣。咄！
+  ref: X78n1556_p0068a05（建中靖国续灯录）
+verify: 机器抽取自 CBETA《建中靖国续灯录》原文条目（起于 X78n1556_p0068a05），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 建中靖国续灯录·随州水南智昱禅师
+cbeta: X78n1556_p0068a05
+evidence: primary
+verify_status: extracted

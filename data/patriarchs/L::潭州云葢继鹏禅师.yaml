@@ -2,7 +2,21 @@ id: L::潭州云葢继鹏禅师
 name: 潭州云葢继鹏
 school: 云门宗
 teacher: 智门祚
-status: named_only
-bio: 《灯录》仅列其名，列为「智门祚」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 初谒双泉雅禅师。泉令充侍者。示以芭蕉拄杖话。经久无省发。一日。泉向火次。师侍立。泉忽
+sayings:
+- text: 问。拄杖子话试举来。与子商量。师拟举。泉拈火箸便𢷾。师豁然大悟。住后
+  ref: X80n1565_p0592a11（五灯会元）
+- text: 僧问。如何是佛法大意。师曰。舌头无骨
+  ref: X80n1565_p0592a11（五灯会元）
+- text: 问。如何是祖师西来意。师曰。汤瓶火里煨
+  ref: X80n1565_p0592a11（五灯会元）
+- text: 问。佛未出世时如何。师曰。天。曰。出世后如何。师曰。地
+  ref: X80n1565_p0592a11（五灯会元）
+- text: 上堂。高不在绝顶。富不在福严。乐不在天堂。苦不在地狱。良久曰。相识满天下。知心能几人
+  ref: X80n1565_p0592a11（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0592a11），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·潭州云葢继鹏禅师
+cbeta: X80n1565_p0592a11
+evidence: primary
+verify_status: extracted

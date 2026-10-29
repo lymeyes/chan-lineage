@@ -2,7 +2,11 @@ id: L::松山和尚
 name: 松山
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 同庞居士吃茶。士举橐子曰。人人尽有分。为甚么道不得。师曰。祇为人人尽有。所以道不得。士曰。阿兄为甚么却道得。师曰。不可无言也。士曰。灼然。灼然。师便吃茶。士曰。阿兄吃茶。为甚么不揖客。师曰。谁。士曰。庞公。师曰。何须更揖。后丹霞闻。乃曰。若不是松山。几被个老翁惑乱一上。士闻之。乃令人传语霞曰。何不会取未举橐子时
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0117a07），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·松山和尚
+cbeta: X80n1565_p0117a07
+evidence: primary
+verify_status: extracted

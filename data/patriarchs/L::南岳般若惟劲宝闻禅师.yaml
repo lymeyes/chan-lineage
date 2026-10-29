@@ -2,7 +2,11 @@ id: L::南岳般若惟劲宝闻禅师
 name: 南岳般若惟劲宝闻
 school: —
 teacher: 雪峰存
-status: named_only
-bio: 《灯录》仅列其名，列为「雪峰存」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 福州人也。师雪峰而友玄沙。深入玄奥。一日问鉴上座。闻汝注楞严。是否。鉴曰。不敢。师曰。二文殊作么生注。曰。请师鉴。师乃扬袂而去。师尝续宝林传四卷。纪贞元之后宗门继踵之源流者。又别著南岳高僧传。皆行于世
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0270b15），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·南岳般若惟劲宝闻禅师
+cbeta: X80n1565_p0270b15
+evidence: primary
+verify_status: extracted

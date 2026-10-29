@@ -2,7 +2,11 @@ id: L::先净照禅师
 name: 先净照
 school: —
 teacher: 未详
-status: named_only
-bio: 《灯录》仅列其名，列为「未详」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 问楞严大师。经中道。若能转物。即同如来。若被物转。即名凡夫。祇如升元阁作么生转。严无对汾阳代云。彼此老大
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0220b05），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·先净照禅师
+cbeta: X80n1565_p0220b05
+evidence: primary
+verify_status: extracted

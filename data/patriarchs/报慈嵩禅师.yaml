@@ -2,7 +2,15 @@ id: 报慈嵩禅师
 name: 报慈嵩
 school: 曹洞宗
 teacher: 洞山初
-status: named_only
-bio: 《灯录》仅列其名，列为「洞山初」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《建中靖国续灯录》X78n1556_p0059a02。
+sayings:
+- text: 问：如何是佛？师云：头戴天，脚蹈地
+  ref: X78n1556_p0059a02（建中靖国续灯录）
+- text: 问：北斗藏身，意旨如何？师云：百岁老人入漆瓮
+  ref: X78n1556_p0059a02（建中靖国续灯录）
+verify: 机器抽取自 CBETA《建中靖国续灯录》原文条目（起于 X78n1556_p0059a02），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 建中靖国续灯录·潭州报慈嵩禅师
+cbeta: X78n1556_p0059a02
+evidence: primary
+verify_status: extracted

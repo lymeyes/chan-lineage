@@ -2,7 +2,13 @@ id: L::宝学刘彦修居士
 name: 宝学刘彦修
 school: 杨岐派
 teacher: 径山杲
-status: named_only
-bio: 《灯录》仅列其名，列为「径山杲」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 字子羽。出知永嘉。问道于大慧禅师。慧曰
+sayings:
+- text: 僧问赵州。狗子还有佛性也无。赵州道无。但恁么看。公后乃于柏树子上发明。有颂曰。赵州柏树太无端。境上追寻也大难。处处绿杨堪系马。家家门底透长安
+  ref: T51n2077_p0694a15（续传灯录）
+verify: 机器抽取自 CBETA《续传灯录》原文条目（起于 T51n2077_p0694a15），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 续传灯录·宝学刘彦修居士
+cbeta: T51n2077_p0694a15
+evidence: primary
+verify_status: extracted

@@ -2,7 +2,11 @@ id: L::信州永丰慧日庵主
 name: 信州永丰慧日
 school: —
 teacher: 云居祐
-status: named_only
-bio: 《灯录》仅列其名，列为「云居祐」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 本郡丘氏子。丱岁出家。于明心寺得度。自机契云居熟游湘汉。暨归永丰或处岩谷或居𮠔市。令乡民称丘师伯。凡有所问以莫晓答之。忽语邑人曰。吾明日行脚去。汝等可来相送。于是赆路者毕集。师笑不已。众问其故。即书偈曰。丘师伯莫晓。寂寂明皎皎。日午打三更。谁人打得了。投笔而逝
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《续传灯录》原文条目（起于 T51n2077_p0608b10），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 续传灯录·信州永丰慧日庵主
+cbeta: T51n2077_p0608b10
+evidence: primary
+verify_status: extracted

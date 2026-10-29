@@ -2,7 +2,19 @@ id: L::潭州三角山总印禅师
 name: 潭州三角山总印
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0110b14。
+sayings:
+- text: 僧问。如何是三宝。师曰。禾．麦．豆。曰。学人不会。师曰。大众欣然奉持
+  ref: X80n1565_p0110b14（五灯会元）
+- text: 上堂。若论此事。眨上眉毛。早已蹉过也。麻谷便
+  ref: X80n1565_p0110b14（五灯会元）
+- text: 问。眨上眉毛即不
+  ref: X80n1565_p0110b14（五灯会元）
+- text: 问。如何是此事。师曰。蹉过也。谷乃掀倒禅床。师便打长庆代云。悄然
+  ref: X80n1565_p0110b14（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0110b14），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·潭州三角山总印禅师
+cbeta: X80n1565_p0110b14
+evidence: primary
+verify_status: extracted

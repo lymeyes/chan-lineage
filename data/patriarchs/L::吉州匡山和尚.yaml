@@ -2,7 +2,11 @@ id: L::吉州匡山和尚
 name: 吉州匡山
 school: 青原系
 teacher: 罗山闲
-status: named_only
-bio: 《灯录》仅列其名，列为「罗山闲」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 师有示徒颂曰。匡山路匡山路岩崖崄峻人难措游人拟议隔千山一句分明超佛祖又有白牛颂曰。我有古坛真白牛父子藏来经几秋出门直透孤峰顶回来暂跨虎谿头
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《景德传灯录》原文条目（起于 T51n2076_p0393c27），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 景德传灯录·吉州匡山和尚
+cbeta: T51n2076_p0393c27
+evidence: primary
+verify_status: extracted

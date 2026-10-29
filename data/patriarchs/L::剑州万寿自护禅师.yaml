@@ -2,7 +2,13 @@ id: L::剑州万寿自护禅师
 name: 剑州万寿自护
 school: 杨岐派
 teacher: 径山杲
-status: named_only
-bio: 《灯录》仅列其名，列为「径山杲」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《续传灯录》T51n2077_p0691b01。
+sayings:
+- text: 上堂。古者道。若人识得心大地无寸土。万寿即不然。若人识得心未是究竟处。且那里是究竟处。拈拄杖卓一下曰。甜瓜彻蒂甜。苦瓠连根苦
+  ref: T51n2077_p0691b01（续传灯录）
+verify: 机器抽取自 CBETA《续传灯录》原文条目（起于 T51n2077_p0691b01），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 续传灯录·剑州万寿自护禅师
+cbeta: T51n2077_p0691b01
+evidence: primary
+verify_status: extracted

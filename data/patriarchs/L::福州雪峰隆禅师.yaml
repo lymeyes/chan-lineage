@@ -2,7 +2,13 @@ id: L::福州雪峰隆禅师
 name: 福州雪峰隆
 school: 云门宗
 teacher: 净慈明
-status: named_only
-bio: 《灯录》仅列其名，列为「净慈明」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《续传灯录》T51n2077_p0629c04。
+sayings:
+- text: 上堂。一不成二。不是口吃饭鼻出气。休云北斗藏身。说甚南山鳖鼻。家财运出任交关。劝君莫竞锥头利
+  ref: T51n2077_p0629c04（续传灯录）
+verify: 机器抽取自 CBETA《续传灯录》原文条目（起于 T51n2077_p0629c04），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 续传灯录·福州雪峰隆禅师
+cbeta: T51n2077_p0629c04
+evidence: primary
+verify_status: extracted

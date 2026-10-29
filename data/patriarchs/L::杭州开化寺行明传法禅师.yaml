@@ -2,7 +2,15 @@ id: L::杭州开化寺行明传法禅师
 name: 杭州开化寺行明传法
 school: 法眼宗
 teacher: 天台韶
-status: named_only
-bio: 《灯录》仅列其名，列为「天台韶」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 本州于氏子。礼雪窦智觉禅师为师。及智觉迁永明。遂入天台国师之室。蒙授记莂。复归永明。翊赞廼师。海众倾仰。忠懿王建六和寺本朝赐开化额。延请住持。聚徒说法
+sayings:
+- text: 僧问。如何是开化门中流出方便。师曰。日日潮音两度闻
+  ref: X80n1565_p0373a16（五灯会元）
+- text: 问。如何是无尽灯。师曰。谢阇黎照烛
+  ref: X80n1565_p0373a16（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0373a16），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·杭州开化寺行明传法禅师
+cbeta: X80n1565_p0373a16
+evidence: primary
+verify_status: extracted

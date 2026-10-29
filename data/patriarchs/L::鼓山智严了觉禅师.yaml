@@ -2,7 +2,17 @@ id: L::鼓山智严了觉禅师
 name: 鼓山智严了觉
 school: —
 teacher: 鼓山晏
-status: named_only
-bio: 《灯录》仅列其名，列为「鼓山晏」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《景德传灯录》T51n2076_p0378c11。
+sayings:
+- text: 上堂曰。多言复多语。由来返相误。珍重
+  ref: T51n2076_p0378c11（景德传灯录）
+- text: 僧问。石门之句即不敢
+  ref: T51n2076_p0378c11（景德传灯录）
+- text: 问。请师方便。师曰。问取露柱。问国王出世三边静。法王出世有何恩。师曰。还会么。僧曰。幸遇明朝辄伸呈献。师曰。吐却著。僧曰。若不礼拜几成无孔铁锤。师曰。何异无孔铁锤
+  ref: T51n2076_p0378c11（景德传灯录）
+verify: 机器抽取自 CBETA《景德传灯录》原文条目（起于 T51n2076_p0378c11），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 景德传灯录·鼓山智严了觉大师
+cbeta: T51n2076_p0378c11
+evidence: primary
+verify_status: extracted

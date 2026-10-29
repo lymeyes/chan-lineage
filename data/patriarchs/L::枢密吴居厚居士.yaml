@@ -2,7 +2,11 @@ id: L::枢密吴居厚居士
 name: 枢密吴居厚
 school: 黄龙派
 teacher: 圆通旻
-status: named_only
-bio: 《灯录》仅列其名，列为「圆通旻」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
+status: draft
+bio: 拥节归钟陵。谒圆通旻禅师。曰。某顷赴省试。过此。过赵州关。因问前住讷老。透关底事如何。讷曰。且去做官。今不觉五十余年。旻曰。曾明得透关底事么。公曰。八次经过。常存此念。然未甚脱洒在。旻度扇与之。曰。请使扇。公即挥扇。旻曰。有甚不脱洒处。公忽有省曰。便请末后句。旻乃挥扇两下。公曰。亲切。亲切。旻曰。吉獠舌头三千里
 sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0716b14），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·枢密吴居厚居士
+cbeta: X80n1565_p0716b14
+evidence: primary
+verify_status: extracted

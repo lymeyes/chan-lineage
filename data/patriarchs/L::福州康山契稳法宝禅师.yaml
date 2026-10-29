@@ -2,7 +2,15 @@ id: L::福州康山契稳法宝禅师
 name: 福州康山契稳法宝
 school: —
 teacher: 保福展
-status: named_only
-bio: 《灯录》仅列其名，列为「保福展」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0293a15。
+sayings:
+- text: 僧问。威音王佛已后。次第相承。未审师今一会法嗣何方。师曰。象骨举手。龙谿点头
+  ref: X80n1565_p0293a15（五灯会元）
+- text: 问。圆明湛寂非师意。学人因底却无明。师曰。辨得也未。曰。恁么则识性无根去也。师曰。隔靴搔痒
+  ref: X80n1565_p0293a15（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0293a15），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·福州康山契稳法宝禅师
+cbeta: X80n1565_p0293a15
+evidence: primary
+verify_status: extracted

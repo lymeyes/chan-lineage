@@ -2,7 +2,15 @@ id: L::泗州普照晓钦明悟禅师
 name: 泗州普照晓钦明悟
 school: —
 teacher: 大沩喆
-status: named_only
-bio: 《灯录》仅列其名，列为「大沩喆」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0460a16。
+sayings:
+- text: 僧问。师唱谁家曲。宗风嗣阿谁。师曰。东边更近东。曰。沩山的子．智海亲孙也。师曰。却笑傍人把钓竿
+  ref: X80n1565_p0460a16（五灯会元）
+- text: 上堂。引手撮空。展转莫及。翻身掷影。徒自劳形。当面拈来。却成蹉过。毕竟如何。拍禅床曰。洎合错商量
+  ref: X80n1565_p0460a16（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0460a16），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·泗州普照晓钦明悟禅师
+cbeta: X80n1565_p0460a16
+evidence: primary
+verify_status: extracted

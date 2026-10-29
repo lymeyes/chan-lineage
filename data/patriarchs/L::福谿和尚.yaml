@@ -2,7 +2,19 @@ id: L::福谿和尚
 name: 福谿
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0118b08。
+sayings:
+- text: 僧问。古镜无瑕时如何。师良久。僧曰。师意如何。师曰。山僧耳背。僧再
+  ref: X80n1565_p0118b08（五灯会元）
+- text: 问。师曰。犹较些子
+  ref: X80n1565_p0118b08（五灯会元）
+- text: 问。如何是自己。师曰。你问甚么。曰。岂无方便。师曰。你适来问甚么。曰。得恁么颠倒。师曰。今日合吃山僧手里棒
+  ref: X80n1565_p0118b08（五灯会元）
+- text: 问。缘散归空。空归何所。师乃召僧。僧应诺。师曰。空在何处。曰。却请和尚道。师曰。波斯吃胡椒
+  ref: X80n1565_p0118b08（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0118b08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·福谿和尚
+cbeta: X80n1565_p0118b08
+evidence: primary
+verify_status: extracted

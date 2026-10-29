@@ -2,7 +2,23 @@ id: L::洪州清泉山守清禅师
 name: 洪州清泉山守清
 school: —
 teacher: 保福展
-status: named_only
-bio: 《灯录》仅列其名，列为「保福展」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0291b01。
+sayings:
+- text: 僧问。如何是佛。师曰
+  ref: X80n1565_p0291b01（五灯会元）
+- text: 问。曰。如何是祖。师曰。答
+  ref: X80n1565_p0291b01（五灯会元）
+- text: 问。和尚见古人得个甚么。便住此山。师曰。情知汝不肯。曰。争知某甲不肯。师曰。鉴貌辨色
+  ref: X80n1565_p0291b01（五灯会元）
+- text: 问。亲切处乞师一言。师曰。莫过于此
+  ref: X80n1565_p0291b01（五灯会元）
+- text: 问。古人面壁为何事。师曰。屈。曰。恁么则省心力去也。师曰。何处有恁么人
+  ref: X80n1565_p0291b01（五灯会元）
+- text: 问。如何是向上事。师曰。消汝三拜。不消汝三拜
+  ref: X80n1565_p0291b01（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0291b01），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·洪州清泉山守清禅师
+cbeta: X80n1565_p0291b01
+evidence: primary
+verify_status: extracted

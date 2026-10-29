@@ -2,7 +2,13 @@ id: L::公期和尚
 name: 公期
 school: —
 teacher: 未详
-status: named_only
-bio: 《灯录》仅列其名，列为「未详」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 因往罗汉。路逢一骑牛公子。师
+sayings:
+- text: 问。罗汉路向甚么处去。公拍牛曰。道。道。师喝曰。这畜生。公曰。罗汉路向甚么处去。师却拍牛曰。道。道。公曰。直饶恁么。犹少蹄角在。师便打。公拍牛便走
+  ref: X80n1565_p0220b08（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0220b08），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·公期和尚
+cbeta: X80n1565_p0220b08
+evidence: primary
+verify_status: extracted

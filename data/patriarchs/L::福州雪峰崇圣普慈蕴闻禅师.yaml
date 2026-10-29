@@ -2,7 +2,13 @@ id: L::福州雪峰崇圣普慈蕴闻禅师
 name: 福州雪峰崇圣普慈蕴闻
 school: 杨岐派
 teacher: 径山杲
-status: named_only
-bio: 《灯录》仅列其名，列为「径山杲」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0800a02。
+sayings:
+- text: 示众云。旃檀丛林。旃檀围绕。师子丛林。师子围绕。虎狼丛林。虎狼围绕。荆棘丛林。荆棘围绕。大众。四种丛林。合向那一种丛林安居好。若也明得。九十日内。管取个个成佛作祖。其或未然。般若丛林岁岁凋。无明荒草年年长
+  ref: X80n1565_p0800a02（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0800a02），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·福州雪峰崇圣普慈蕴闻禅师
+cbeta: X80n1565_p0800a02
+evidence: primary
+verify_status: extracted

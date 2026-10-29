@@ -6,3 +6,5 @@ __pycache__/
 sources/.gitkeep
 .cache/
 sources/*.txt
+# 条目索引 16MB，可由 sources/ + tools/extract_entries.py 完全再生，属派生物不入库
+reports/entries_index.json

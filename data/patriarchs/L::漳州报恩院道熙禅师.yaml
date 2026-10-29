@@ -2,7 +2,21 @@ id: L::漳州报恩院道熙禅师
 name: 漳州报恩院道熙
 school: —
 teacher: 保福展
-status: named_only
-bio: 《灯录》仅列其名，列为「保福展」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《景德传灯录》T51n2076_p0383a18。
+sayings:
+- text: 问。漳南和尚近日还为人也无。师曰。若道为人即屈著和尚。若道不为人。又屈著太尉来
+  ref: T51n2076_p0383a18（景德传灯录）
+- text: 问。太尉曰。道取一句待铁牛能啮草木马解含烟。师曰。某甲借口吃饭。太尉良久又
+  ref: T51n2076_p0383a18（景德传灯录）
+- text: 问。驴来马来。师曰。驴马不同途。太尉曰。争得到遮里。师曰。特谢太尉领话
+  ref: T51n2076_p0383a18（景德传灯录）
+- text: 僧问。名言妙句即不
+  ref: T51n2076_p0383a18（景德传灯录）
+- text: 问。请师真实。师曰。不阻来意
+  ref: T51n2076_p0383a18（景德传灯录）
+verify: 机器抽取自 CBETA《景德传灯录》原文条目（起于 T51n2076_p0383a18），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 景德传灯录·漳州报恩院道熙禅师
+cbeta: T51n2076_p0383a18
+evidence: primary
+verify_status: extracted

@@ -2,7 +2,15 @@ id: L::安吉州天圣守道禅师
 name: 安吉州天圣守道
 school: 云门宗
 teacher: 金山新
-status: named_only
-bio: 《灯录》仅列其名，列为「金山新」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《五灯会元》X80n1565_p0601b04。
+sayings:
+- text: 上堂。日月绕须弥。人间分昼夜。南阎浮提人祇被明暗色空留碍。且道不落明暗一句作么生道。良久曰。柳色黄金嫩。梨花白雪香。参
+  ref: X80n1565_p0601b04（五灯会元）
+- text: 上堂。不从一地至一地。寂灭性中宁有位。释迦稽首问然灯。仁者何名为受记。便下座。五灯会元灯会元青原下十世下青原下十世下
+  ref: X80n1565_p0601b04（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0601b04），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·安吉州天圣守道禅师
+cbeta: X80n1565_p0601b04
+evidence: primary
+verify_status: extracted

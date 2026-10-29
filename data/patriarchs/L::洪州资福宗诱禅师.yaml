@@ -2,7 +2,15 @@ id: L::洪州资福宗诱禅师
 name: 洪州资福宗诱
 school: 云门宗
 teacher: 云居元
-status: named_only
-bio: 《灯录》仅列其名，列为「云居元」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 生平部分原文未载，仅存机缘语（见下）；据《建中靖国续灯录》X78n1556_p0181a09。
+sayings:
+- text: 上堂，云：唱弥高，和弥寡，九载少林，有口如哑，眨上眉毛，蹉过了也。山僧今日从空放下，为什么如此？尽法无民
+  ref: X78n1556_p0181a09（建中靖国续灯录）
+- text: 上堂，云：龙泉今日与诸人说些葛藤。良久，云：枝蔓上更生枝蔓
+  ref: X78n1556_p0181a09（建中靖国续灯录）
+verify: 机器抽取自 CBETA《建中靖国续灯录》原文条目（起于 X78n1556_p0181a09），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 建中靖国续灯录·洪州资福宗诱禅师
+cbeta: X78n1556_p0181a09
+evidence: primary
+verify_status: extracted

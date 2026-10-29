@@ -2,7 +2,17 @@ id: L::婺州宝林果昌宝觉禅师
 name: 婺州宝林果昌宝觉
 school: 云门宗
 teacher: 法云本
-status: named_only
-bio: 《灯录》仅列其名，列为「法云本」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+status: draft
+bio: 安州时氏子。师与提刑杨次公入山同游山次。杨拈起大士饭石
+sayings:
+- text: 问。既是饭石。为甚么𫜪不破。师曰。祇为太硬。杨曰。犹涉繁词。师曰。未审提刑作么生。杨曰。硬。师曰。也是第二月。杨为写七佛殿额。乃
+  ref: X80n1565_p0637b12（五灯会元）
+- text: 问。七佛重出世时如何。师曰。一回相见一回新
+  ref: X80n1565_p0637b12（五灯会元）
+- text: 上堂。一即一。二即二。齅著直是无香气。蓦拈拄杖卓一下。曰。识得山僧楖栗条。莫向南山寻鳖鼻
+  ref: X80n1565_p0637b12（五灯会元）
+verify: 机器抽取自 CBETA《五灯会元》原文条目（起于 X80n1565_p0637b12），已做简繁转换与章节标题清洗；尚未逐字人工校订（切分边界、异体字、法系归属仍待核）。原卡「未载生平事迹与语录原文」之断言，经本次语料核对为误，已订正。
+source_ref: 五灯会元·婺州宝林果昌宝觉禅师
+cbeta: X80n1565_p0637b12
+evidence: primary
+verify_status: extracted
