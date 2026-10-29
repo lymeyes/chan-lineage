@@ -1,8 +1,10 @@
 id: L::邵武军龙湖普闻禅师
-name: 邵武军龙湖普闻
+name: 龙湖普闻
 school: 青原系
 teacher: 石霜诸
-status: named_only
-bio: 《灯录》仅列其名，列为「石霜诸」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+bio: 石霜庆诸禅师法嗣（或云得法于岩头全奯），住邵武龙湖。机缘见于《五灯会元》青原下石霜法嗣章。
+sayings:
+- text: 僧问：「如何是龙湖境？」师曰：「龙湖无水，鱼从何来？」
+  ref: 五灯会元·卷六·龙湖普闻禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。

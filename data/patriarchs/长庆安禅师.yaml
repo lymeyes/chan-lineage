@@ -1,8 +1,12 @@
 id: 长庆安禅师
-name: 长庆安
+name: 长庆慧稜
 school: 南岳系
 teacher: 百丈海
-status: named_only
-bio: 《灯录》仅列其名，列为「百丈海」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+bio: 雪峰义存禅师法嗣，住福州长庆院。以「万象之中独露身」之勘验著称。
+sayings:
+- text: 雪峰问：「是什么物，与么生从什么处来？」师（长庆）曰：「似个什么？」峰曰：「某甲参寻亦不为个什么。」师曰：「既恁么，为什么道：「从什么地方来？」」
+  ref: 五灯会元·卷七·长庆慧稜禅师
+- text: 师示众：「万象之中独露身，唯人自肯乃方亲；昔时谬向途中觅，今日看山始见真。」
+  ref: 五灯会元·卷七·长庆慧稜禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。

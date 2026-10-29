@@ -1,8 +1,10 @@
 id: 香严闲禅师
-name: 香严闲
+name: 香严智闲
 school: 沩仰宗
 teacher: 沩山祐
-status: named_only
-bio: 《灯录》仅列其名，列为「沩山祐」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+bio: 沩山灵祐禅师法嗣。初以博闻强记自负，沩山问「父母未生时」一句，智闲茫然，烧却生平经籍，入南阳香严山除草，因击竹而悟，为沩仰宗著名公案。
+sayings:
+- text: 师（香严）因瓦砾击竹作声，忽然省悟，作偈：「一击忘所知，更不假修持；动容扬古路，不堕悄然机……」
+  ref: 五灯会元·卷九·香严智闲禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。

@@ -1,8 +1,10 @@
 id: L::京兆兴善寺惟宽禅师
-name: 京兆兴善寺惟宽
+name: 兴善惟宽
 school: 南岳系
 teacher: 马祖一
-status: named_only
-bio: 《灯录》仅列其名，列为「马祖一」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+bio: 马祖道一禅师法嗣，住长安兴善寺。唐代名臣白居易尝诣问禅，录于《白氏长庆集》。
+sayings:
+- text: 白居易问：「既曰禅师，何故说法?」师（惟宽）曰：「无上菩提者，被于身为律，说于口为法，行于心为禅；应用者三，其致一也。」
+  ref: 五灯会元·卷三·兴善惟宽禅师（并见白居易《传法堂碑》）
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。

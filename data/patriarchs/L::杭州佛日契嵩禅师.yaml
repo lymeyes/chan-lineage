@@ -1,8 +1,12 @@
 id: L::杭州佛日契嵩禅师
-name: 杭州佛日契嵩
-school: 曹洞宗
+name: 明教契嵩
+school: 云门宗
 teacher: 洞山聪
-status: named_only
-bio: 《灯录》仅列其名，列为「洞山聪」之法嗣，未载生平事迹与语录原文。此卡为结构占位，待据 CBETA 数字化藏经（《五灯会元》《景德传灯录》《祖堂集》《联灯会要》《五灯全书》）逐条补全。
-sayings: []
-verify: structural stub derived from lineage tree; no lamp-record content yet.
+bio: 北宋云门宗名僧，号潜子，赐号「明教大师」。著《辅教篇》《传法正宗定祖图》《镡津文集》，力倡儒释一贯，上仁宗书，定禅宗西天二十八祖付法之统，于禅宗法统之确立贡献至巨。
+sayings:
+- text: 师著《传法正宗定祖图》，考定西天二十八祖相承之谱，以正禅门法统。
+  ref: 五灯会元·卷十九·契嵩禅师（并见《镡津文集》）
+- text: 契嵩曰：「儒释之际，圣人之道一也。」力主儒释调和。
+  ref: 镡津文集·辅教篇
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
