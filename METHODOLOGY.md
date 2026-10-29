@@ -10,7 +10,7 @@
 | 档位 | 含义 | 进入条件 |
 |---|---|---|
 | `core` | 已对照 CBETA 电子佛典**逐字校核**正文 | Phase R2 完成后由 `draft` 晋升 |
-| `draft` | 内容据正典灯录整理，**已锚定到具体典籍 work 级**，但正文未逐字校核 | 当前 103 张均在此档 |
+| `draft` | 内容据正典灯录整理，**已锚定到具体典籍 work 级**（其中 5 张 `sourced` 已据《五灯会元》原文摘录），正文未逐字校核 | 当前 108 张均在此档 |
 | `named_only` | 仅列名（姓名/法系/师承可从谱系推导），**无任何生平或公案内容** | 诚实占位，绝不为无据者编造事迹 |
 
 > 诚实底线：凡谱系中"有名无事迹"的节点，一律 `named_only`，**宁缺毋滥，绝不杜撰**。
@@ -25,10 +25,11 @@
   - `primary` —— 内容源自**前代禅宗正典**（灯录、语录、坛经等一手文献），非现代二手摘编。
   - `secondary` —— 内容取自现代综述/百科，无具体前代典籍锚点（本项目默认 `primary`）。
 - `verify_status`
-  - `anchor_only` —— 已锚定到典籍 **work 级**（含 CBETA 目录号），但**卷次/正文尚未逐字校核**。
-  - `line_verified` —— 已对照 CBETA 全文逐字核对（当前暂无，待 Phase R2）。
+  - `sourced` —— 已**据正典原文摘录具体生平/语录**（如《五灯会元》文句），并标注卷次与出处，但**尚未对照 CBETA/卍续藏 X 部逐字对校**。比 `anchor_only` 多一步"有可溯原文"，是 `anchor_only` 与 `line_verified` 之间的中间态。
+  - `anchor_only` —— 已锚定到典籍 **work 级**（含 CBETA 目录号），但**无具体正文摘录**，卷次/字句待校。
+  - `line_verified` —— 已对照 CBETA/卍续藏逐字核对（当前暂无，待 Phase R2）。
 
-**当前状态**：全部 103 张 `draft` 卡均为 `evidence: primary` + `verify_status: anchor_only`。
+**当前状态**：共 108 张 `draft` 卡，均为 `evidence: primary`。其中 **5 张为 `sourced`**（报慈从瑰、幻堂中仁、双溪印、祐圣法居、煮山宁，内容据《五灯会元》原文核校）；其余 103 张为 `anchor_only`。
 即：内容引自正典、可信来源明确，但卷次与字句待逐字校核——这一限制已在每张卡上显式标注，不夸大。
 
 ---
@@ -108,3 +109,6 @@ sayings:
 | `tools/gen_phase4.py` / `gen_phase5.py` | 临济主脉 / 各宗派骨干升格为 `draft` |
 | `tools/upgrade_citations.py` | 补齐缺锚点卡的 `source_ref`/`cbeta`，并加 `evidence`/`verify_status`（Phase R1） |
 | `tools/build_site.py` | 由 lineage.json + YAML 生成自包含 `site/index.html` |
+| `tools/clean_ids.py` | 剥离节点 id 中分支图抽取残留的 `**` 分隔符（如 `L::洛京黑**涧**和尚`→`L::洛京黑涧和尚`），同步 tree/parent 引用与 YAML 文件名 |
+| `tools/fix_garbled_names.py` | 修复 CJK 部首拆解记号（IDS）残留的乱码节点名，并据《五灯会元》原文升 5 张卡为 `sourced` |
+| `tools/fix_mojibake.py` | 修正字体缺字映射错误导致的 Unicode 乱码（`U+24986`→`瑫`、`U+255FF`→`裕`），纯字符替换，不影响卡档数量 |

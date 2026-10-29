@@ -1,0 +1,17 @@
+id: L::密州煮山宁禅师
+name: 密州煮山宁
+honorific: 密州煮山宁禅师
+school: 云门宗
+dynasty: 宋
+region: 密州煮山
+teacher: 雪窦重显（雪窦明禅师）
+source_ref: 五灯会元·卷十六·雪窦明禅师法嗣 / 五灯全书·卷三十四
+cbeta: 《五灯会元》属卍续藏 X 部。
+bio: 密州煮山宁禅师，雪窦重显（明禅师）法嗣，云门宗传人。
+sayings:
+- text: 上堂：「有时孤峰顶上啸月眠云，有时大洋海中翻波走浪，有时十字街头七穿八穴。诸人还相委悉么？樟树花开盛，芭蕉叶最多。」
+  ref: 五灯会元·卷十六·雪窦明禅师法嗣
+status: draft
+verify: 内容据《五灯会元》卷十六（通行本）核校，待对校卍续藏 X 部。
+evidence: primary
+verify_status: sourced
