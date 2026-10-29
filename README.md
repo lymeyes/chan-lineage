@@ -67,7 +67,7 @@ chan-lineage/
 | 黄龙慧南开祖卡片 id 错位修复 | ✅ 开祖真实节点为 `黄龙南禅师`（已补卡）；原误挂 `黄龙机禅师` 节点（另一人）的旧卡已改为诚实占位（`named_only`），不再误植 |
 | **Phase R1 严谨化（证据等级 + 核验状态）** | ✅ 全部 103 份 `draft` 卡补 `evidence: primary` + `verify_status: anchor_only`，45 份缺失者补齐 `source_ref`/`cbeta`（统一用可核验 CBETA 大正藏 T 编号，卷次除个别确信者外标「待核」，不编造）；站点新增「证据等级 / 核验状态」渲染；新增 [`METHODOLOGY.md`](METHODOLOGY.md) 固化证据等级与正典目录。**诚实边界：本环境无法抓取 CBETA 全文，故均 `anchor_only`，逐字校核留待 Phase R2** |
 | **Phase R2·a（乱码节点名修复 + 5 卡升 `sourced`）** | ✅ 修复 5 个因分支图 CJK 部首拆解记号（IDS）残留的乱码节点名，均经《五灯会元》原文联网核验还原真实法讳：报慈从瑰、幻堂中仁、双溪印、祐圣法居、煮山宁；并修正 2 处错挂房支（报慈从瑰→法眼宗、煮山宁→云门宗）。该 5 张卡升为 `verify_status: sourced`（已据《五灯会元》原文摘录生平/上堂语，标注卷次出处），为 `anchor_only` 与 `line_verified` 间的中间态。详见 [`METHODOLOGY.md`](METHODOLOGY.md) §2。**draft 累计 103 → 108；named_only 1873 → 1868** |
-| **Phase R2·b（Unicode 缺字映射乱码修复）** | ✅ 修正 5 个节点名因字体缺字 / 抽取映射错误导致的 Unicode 乱码：源串 `U+24986`→`瑫`(U+746B)、`U+255FF`→`裕`(U+88D5)，均经《五灯会元》/CBETA 目录/佛学词典联网核验还原真实法讳：国泰瑫、安国瑫、潭州龙兴裕、福州迁宗院行瑫仁慧、杭州倾心寺法瑫宗一。纯字符替换，YAML 卡档数量与档位不变（draft 108 / named_only 1868）。脚本见 [`tools/fix_mojibake.py`](tools/fix_mojibake.py) |
+| **Phase R2·b（Unicode 缺字映射乱码 + YAML 一致性对账）** | ✅ 修正 5 个节点名因字体缺字 / 抽取映射错误导致的 Unicode 乱码：源串 `U+24986`→`瑫`(U+746B)、`U+255FF`→`裕`(U+88D5)，均经《五灯会元》/CBETA 目录/佛学词典联网核验还原真实法讳：国泰瑫、安国瑫、潭州龙兴裕、福州迁宗院行瑫仁慧、杭州倾心寺法瑫宗一；并回写这 5 张卡 YAML 的 `id`/`name` 字段。同时修复 `clean_ids.py` 仅重命名文件、未回写内部 `id` 的遗漏——导致 28 张卡的内部 `id` 仍带 `**` 分隔符、与节点脱节（点击节点看不到卡）；本阶段统一令 **YAML 内部 id/name == 文件名 == 节点 id**，全站节点↔卡 100% 对应（0 孤儿 / 0 缺卡），卡档数量与档位不变（draft 108 / named_only 1868）。脚本见 [`tools/fix_mojibake.py`](tools/fix_mojibake.py) |
 
 ## 本地构建与预览
 
