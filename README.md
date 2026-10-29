@@ -1,0 +1,93 @@
+# 禅宗法脉 · 交互谱系与祖师资料库（chan-lineage）
+
+把一张禅宗传承关系图，升级为**可溯源、可引用**的祖师资料库：点开谱系中任一节点，
+即可看到其生平、师承、代表公案 / 语录，并标注精确出处（哪部灯录·第几卷·哪则）。
+
+> 设计目标：图是骨架，引文与生平是血肉。所有内容**可溯源、可校核**，绝不杜撰。
+
+## 许可（License）
+
+- 本仓库采用 **Creative Commons Attribution 4.0 International（CC BY 4.0）**，见 [`LICENSE`](LICENSE)。
+  该许可最适合「以公版古籍为底本、经结构化与注释的知识资源」：要求署名、允许再创作与商用，
+  契合「援引 CBETA / 灯录须注明来源」的学术伦理。
+- 古籍文本本身属公版；CBETA 电子佛典数字化版本依其授权（CC）**转载并醒目署名来源**。
+- 仓库内的生成脚本（`tools/`）为极轻量辅助代码，同样以 CC BY 4.0 提供。
+
+## 数据来源与学术诚信
+
+- **底本**：《景德传灯录》《五灯会元》《祖堂集》《联灯会要》《五灯全书》；数字化参考 CBETA 电子佛典。
+- **铁律**：每条引文（公案 / 语录 / 偈颂）必须来自权威底本并填 `ref`；**不得杜撰**生平或公案。
+  灯录未载者留空或标 `status: named_only`。
+- **校对工作流**：默认 `status: draft`（已据灯录填实，待逐字比对 CBETA），校核无误后升 `core`。
+  凡存疑记载（如「拈花微笑」之史源性），在 `bio` / `verify` 中显式说明，不混入定论。
+
+## 目录结构
+
+```
+chan-lineage/
+├── LICENSE                # CC BY 4.0
+├── README.md              # 本文件
+├── data/
+│   ├── lineage.json       # 结构化谱系（tree 嵌套 + nodes 扁平 + meta），1977 节点 / 最大 23 世
+│   ├── schema.md          # 祖师 YAML 字段定义与诚信规则
+│   └── patriarchs/        # 每位祖师一份 <id>.yaml（生平/引文/出处）
+├── sources/               # 原始灯录文本（CBETA 抽取，注明版本）— 待补
+├── site/
+│   └── index.html         # 自包含交互站点（数据内嵌，双击即可打开，无需服务器）
+└── tools/
+    ├── extract_lineage.py     # 从分支图 HTML 抽取 → data/lineage.json
+    ├── build_site.py         # 从 lineage.json + YAML → site/index.html
+    └── gen_core_patriarchs.py# 生成「核心脊柱」祖师卡（批量，据灯录）
+```
+
+## 当前进度
+
+| 项 | 状态 |
+|---|---|
+| 谱系结构（1977 节点 / 最大 23 世） | ✅ 已抽取至 `data/lineage.json` |
+| 交互站点（可折叠树 + 点击看详情 + 搜索 + 展开全部/重置） | ✅ `site/index.html`（数据内嵌，可离线双击打开） |
+| 祖师卡 schema | ✅ `data/schema.md`（含 draft→core 校对工作流） |
+| 核心脊柱祖师卡（七佛→六祖→南岳/青原→五家七宗开祖 + 赵州/石头/药山/德山/雪峰等） | ✅ **29 份 `status: draft`**，见 `data/patriarchs/` |
+| 西天二十八祖（印度付法血脉） | ⚠️ 图谱中以单一汇总节点呈现，已写综述卡；各祖独立卡待补 |
+| 扩展：有言行记载的法嗣（数百人） | ⬜ 阶段二 |
+| 长尾：仅列名者 | ⬜ 阶段三，`status: named_only` |
+| 杨岐派 house 着色归一（图谱 `杨歧/杨岐` 异体） | ⬜ 待修（不影响卡片内容，仅分支图配色） |
+
+## 本地构建与预览
+
+```bash
+# 1) 抽取谱系（仅在分支图 HTML 更新后重跑）
+python3 tools/extract_lineage.py
+
+# 2) 生成 / 增补核心祖师卡（批量，据灯录）
+python3 tools/gen_core_patriarchs.py
+
+# 3) 生成站点（每次增删 patriarchs/*.yaml 后重跑）
+python3 tools/build_site.py
+
+# 4) 预览：直接双击 site/index.html，或起本地服务器
+python3 -m http.server -d site 8000   # 然后访问 http://localhost:8000
+```
+
+## 如何贡献一份祖师卡
+
+1. 确认 `id` 与 `data/lineage.json` 中节点 `id` 完全一致（否则点击节点看不到卡片）。
+2. 在 `data/patriarchs/` 新建 `<id>.yaml`，按 `data/schema.md` 填写；先标 `status: draft`。
+3. 引文务必标注 `ref`（灯录·卷·条）；存疑处用 `verify` / `bio` 显式说明，不混入定论。
+4. 跑 `python3 tools/build_site.py` 重新生成站点。
+5. （推荐）提交前逐字比对 CBETA，无误则改 `status: core`。
+
+## 已知数据说明
+
+- **节点命名采用尊号缩写**：如 `临济玄禅师`、`六祖大鉴禅师`、`清凉益禅师`（= 法眼文益）、
+  `黄龙机禅师`（= 黄龙慧南）、`杨歧会禅师`（= 杨岐方会，「歧」为「岐」异体）。
+  卡片内 `name` 给出标准全名，便于检索。
+- **西天二十八祖在图谱中折叠为单一汇总节点**（`PRE::……西天二十八祖……`），已写综述卡；
+  后续可据 CBETA 拆为二十八张独立卡。
+- **杨岐派 house 标签**：图谱中 `杨歧会禅师` 节点的 house 字段被标为 `源头` 而非 `杨岐派`
+  （异体归一残留），正在修；不影响卡片内容呈现。
+
+## 版权与署名
+
+- 古籍文本：公版；CBETA 数字化版本依其授权（CC）转载并署名。
+- 本仓库结构化数据与代码：CC BY 4.0，署名 `chan-lineage` 贡献者。

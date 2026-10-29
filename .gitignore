@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+# sources/ 用于存放 CBETA 原始灯录抽取文本，目前为空占位
+sources/.gitkeep
