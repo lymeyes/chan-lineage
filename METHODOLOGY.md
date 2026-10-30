@@ -165,6 +165,20 @@ sayings:
   这些人在灯录中有完整条目，但卡片名字用了「庵号 + 法名末字」的缩称，条目匹配按全名进行 → 匹配失败 →
   被判成「未见独立条目」。**命名错误会伪装成内容缺失**，两个问题叠在一起时极易误诊为「本来就没记载」。
   > 教训：`named_only` 数量异常偏高时，先查名字是否缩称，再下「无记载」结论。
+- **同一处缩称会同时污染「卡名」与「引用」两层**（2026-10-30，已全量修复）：
+  上面那条记录的是卡名层（117 张，已改名）。同一批缩称还潜伏在 `teacher` 字段里——
+  谱系树生成时 `teacher` 写的是 `云门偃`／`马祖一`／`雪峰存`，而卡 id 已规范化成
+  `云门文偃`／`马祖道一`／`雪峰义存`，于是 **1932 张卡的师承指向根本不存在的节点**，
+  且这种断裂**不会**触发任何既有审计项（parent 引用的是 lineage 里的 id，不是 teacher）。
+  > 教训：改名必须同步检查所有「按名字引用」的字段。凡有 `teacher`/`alias`/`source_ref`
+  > 这类文本引用的数据模型，改名脚本必须一并产出映射并回填引用，否则修好一层、断掉一层。
+  > 现已在 `audit_integrity.py` 固化 teacher 检查项：悬空=失败，`teacher ≠ parent`=告警。
+- **「已知遗留」要能被机器识别，不能只写在文档里**：本次有 4 张卡的 `teacher` 指向树中
+  确无节点的历史人物（菩提达摩→西天二十七祖般若多罗、摩诃迦叶→释迦牟尼佛 等）。若简单
+  把这项检查设成硬失败，审计就永远红灯、进而被忽视；若删掉检查，同类问题又会重新长出来。
+  做法是把这 4 项列入 `KNOWN_TEACHER_MISSING` 白名单——**报出来但不判失败**，新增的真悬空
+  仍然会失败。
+  > 教训：诚实边界分三档落位——能修的修（1864 张）、修不了的列白名单并说明原因、新增的硬失败。
 
 ---
 
@@ -183,6 +197,12 @@ sayings:
 | `tools/extract_cbeta.py` | 从 CBETA XML P5（`.cache/xml-p5` sparse checkout）抽取带行锚点的纯文本到 `sources/*.txt`，锚点格式 `T51n2076_p0377a20`；兼容 T/X 两藏属性顺序差异 |
 | `tools/cbeta_check.py` | 逐字校核器：简繁归一（zhconv）+ 去标点/缺字 gap 后做「人名定位 + 语句多点滑窗比对」，输出 A 双证 / B 单证 / C 未命中分级报告到 `reports/` |
 | `tools/extract_entries.py` | 灯录条目切分：按「XX禪師XX禪師」双标题定界（以法名共享后缀 ≥2 字判定，兼容续传灯录前略后详体例），7 部灯录 → 5,520 条「一人一条」结构化条目（正文/生平/机缘语分离，保留 CBETA 锚点） |
-| `tools/enrich_cards.py` | 条目回填：按法名精确匹配（含后缀匹配、>=3 字防撞），把 `named_only` 空壳升为 `draft`，统一标 `verify_status: extracted`；并清除旧卡的「未载」错误断言 |
+| `tools/enrich_cards.py` | 条目回填：按法名精确匹配（含后缀匹配、>=3 字防撞、「地名 + 法名」档），把 `named_only` 空壳升为 `draft`，统一标 `verify_status: extracted`；并清除旧卡的「未载」错误断言 |
+| `tools/normalize_ids.py` | id 规范化：去 `L::`/`PRE::`/`ROOT::` 前缀与标题句末虚词「者」（真称谓如侍者/行者/尊者保留） |
+| `tools/normalize_names.py` | 名实对齐：文件名 = 标准通行名 + 原称谓后缀，括号注释移入 `alias`（74 张） |
+| `tools/fix_abbrev_names.py` | 缩称卡改名：`天童觉`→`天童正觉` 等 117 张，原缩称入 `alias`；支持断点续跑与中断残留自动消解 |
+| `tools/fix_teacher_refs.py` | `teacher` 悬空引用修复 1864 张：去括号注释 → 地名+单字扩展 → 手工表三档解析 |
+| `tools/fix_contradict_bio.py` | 清理「`bio` 称未见独立条目、卡里却已有语录」的自相矛盾 |
+| `tools/scan_abbrev.py` | 缩称候选扫描器：在七部灯录原文中定位「地名+末字」候选条目，输出 `reports/abbrev_candidates*.tsv` 供人工核定 |
 | `tools/offline_generate.py` / `offline_verify.py` | 离线库（Obsidian）生成器与校验器的**仓库真源副本**；二者原本只存在于不受版本保护的库目录内，目录被同步删空即等于工具丢失，故迁入仓库并由重建脚本下发 |
 | `tools/rebuild_offline.py` | 一键灾备重建：本机数据缺失时自动 `git clone`（SSH 优先/HTTPS 回退）→ 下发工具 → 重建 → 校验；支持 `--prune` / `--verify-only` / `--target` 演练 |
