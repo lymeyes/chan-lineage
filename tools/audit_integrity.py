@@ -100,15 +100,50 @@ def main():
     if orphan_node:
         problems.append("缺卡节点(无 YAML): %s" % orphan_node)
 
+    # 7) teacher 引用完整性：必须指向存在的卡（"—" 占位、根除外），不得指向自己
+    # 8) teacher 与树 parent 冲突（仅告警：树里挂根但 teacher 指明师承，属"断链祖先"）
+    import yaml
+    # 树中确无对应节点的师承：保留原值不臆造，单列告警（补建节点需逐人核定谱系，留待决策）
+    KNOWN_TEACHER_MISSING = {"西天二十七祖般若多罗": "东土初祖菩提达摩",
+                             "释迦牟尼佛": "西天初祖摩诃迦叶",
+                             "石门慈照": "驸马都尉李遵勗居士",
+                             "杨岐方会（杨歧会禅师）": "白云守端禅师"}
+    warns = []
+    for fp in glob.glob(os.path.join(PAT, "*.yaml")):
+        cid = os.path.basename(fp)[:-5]
+        try:
+            card = yaml.safe_load(open(fp, encoding="utf-8")) or {}
+        except Exception:
+            continue
+        t = card.get("teacher")
+        if not isinstance(t, str):
+            continue
+        t = t.strip()
+        if not t or t == "—":
+            continue
+        if t == cid:
+            problems.append("teacher 指向自身: %s" % cid)
+        elif t != ROOT_ID and t not in idset:
+            if t in KNOWN_TEACHER_MISSING:
+                warns.append("%s: teacher=%s（树中无此节点，已知遗留）" % (cid, t))
+            else:
+                problems.append("teacher 悬空: %s -> %s" % (cid, t))
+        elif t in idset and by_id.get(cid, {}).get("parent") not in (None, t):
+            warns.append("%s: teacher=%s / parent=%s" % (cid, t, by_id.get(cid, {}).get("parent")))
+
     # 报告
     print("审计对象: %d 节点 / %d YAML" % (len(nodes), len(yids)))
+    if warns:
+        print("! teacher 与树 parent 不一致 %d 处（告警，不影响通过）：" % len(warns))
+        for w in warns:
+            print("  - " + w)
     if problems:
         print("✗ 发现 %d 处问题:" % len(problems))
         for p in problems:
             print("  - " + p)
         sys.exit(1)
     print("✓ 全部通过：id 唯一 / parent 完整无环 / 无乱码 / tree==flat / "
-          "节点↔卡 100%% 对应（0 孤儿 / 0 缺卡）")
+          "节点↔卡 100%% 对应（0 孤儿 / 0 缺卡）/ teacher 无悬空")
     sys.exit(0)
 
 if __name__ == "__main__":

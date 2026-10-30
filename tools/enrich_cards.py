@@ -57,7 +57,7 @@ MIN_BODY = 30     # 太短不值得建卡
 MAX_BIO = 800     # 超长生平截断并标注
 
 # 旧卡里的模板化占位断言。实测其中约七成有完整条目，该断言为误，须清除。
-PLACEHOLDER = re.compile(r"仅列其名|结构占位|未载生平|未载事迹|待据\s*CBETA|待补全")
+PLACEHOLDER = re.compile(r"仅列其名|结构占位|未载生平|未载事迹|待据\s*CBETA|待补全|未见独立条目|仅存谱系名位")
 BIO_MARK = re.compile(r"[也氏子人年寺師從參謁禮住嗣悟寂塔壽臘]")
 
 
@@ -102,6 +102,14 @@ def pick_entry(name: str, idx):
             return None, ""
         cands = [e for k, v in idx.items() if k.endswith(n) for e in v]
         how = "suffix"
+    if not cands:
+        # 3) 地名 + 法名：节点名末二字与条目名末二字相同，且节点的地名部分出现在条目名中
+        #    例：萬年法一 → 台州萬年雪巢法一；天童正覺 → 明州天童宏智正覺
+        if len(n) < 4:
+            return None, ""
+        tail, place = n[-2:], n[:-2]
+        cands = [e for k, v in idx.items() if k.endswith(tail) and place in k for e in v]
+        how = "place"
     if not cands:
         return None, ""
     cands.sort(key=lambda e: (len(e["name_hant"]) - len(n), PRI.get(e["work"], 9), -e["body_len"]))
