@@ -1,0 +1,16 @@
+id: 龙牙居遁禅师
+name: 龙牙居遁
+school: 曹洞宗
+teacher: 洞山价
+bio: 洞山良价禅师法嗣，住龙牙山。历参洞山、德山、曹山诸老，后开法龙牙，学侣云集。
+sayings:
+- text: 僧问：「天不能盖，地不能载，岂不是？」师（龙牙）曰：「若是即被盖载。」僧便休。
+  ref: 五灯会元·卷十三·龙牙居遁禅师
+- text: 师示众：「夫参玄人，须透祖师佛祖不祈之关，然后方可入作。」
+  ref: 五灯会元·卷十三·龙牙居遁禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷二十 / 五灯会元卷十三
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

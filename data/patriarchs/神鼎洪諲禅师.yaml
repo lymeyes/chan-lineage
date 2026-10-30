@@ -1,0 +1,14 @@
+id: 神鼎洪諲禅师
+name: 神鼎洪諲
+school: 临济宗
+teacher: 首山省念
+bio: 首山省念禅师法嗣，住神鼎山。名载《五灯会元》首山省念法嗣章（「諲」或作「𬤇」）。
+sayings:
+- text: 首山问：「何处来？」师曰：「神鼎来。」山曰：「神鼎有何言句？」师曰：「不干你事。」山曰：「莫是神鼎么？」师曰：「黜。」
+  ref: 五灯会元·卷十二·神鼎諲禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 五灯会元卷十二 / 古尊宿语录（卷次待核）
+cbeta: T47n1991（古尊宿语录）
+evidence: primary
+verify_status: anchor_only

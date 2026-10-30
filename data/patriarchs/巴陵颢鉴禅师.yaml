@@ -1,0 +1,16 @@
+id: 巴陵颢鉴禅师
+name: 巴陵颢鉴
+school: 云门宗
+teacher: 云门偃
+bio: 云门文偃禅师法嗣，住巴陵。以「巴陵三转语」与「银碗里盛雪」之句著称，云门宗风之峻峭者。
+sayings:
+- text: 僧问：「如何是提婆宗？」师（巴陵）曰：「银碗里盛雪。」
+  ref: 五灯会元·卷十五·巴陵颢鉴禅师
+- text: 师示众：「不是风动，不是幡动，不是心动，是什么？」
+  ref: 五灯会元·卷十五·巴陵颢鉴禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录 / 五灯会元（卷次待核）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

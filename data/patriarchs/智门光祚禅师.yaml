@@ -1,0 +1,14 @@
+id: 智门光祚禅师
+name: 智门光祚
+school: 云门宗
+teacher: 香林远
+bio: 云门文偃禅师法嗣，住智门寺。门下出雪窦重显，为云门宗中兴之关键链环。
+sayings:
+- text: 僧问：「如何是佛？」师（智门）曰：「踏破草鞋赤脚走。」
+  ref: 五灯会元·卷十五·智门光祚禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 五灯会元卷十五（卷次待核）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

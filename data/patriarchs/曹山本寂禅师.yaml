@@ -1,0 +1,17 @@
+id: 曹山本寂禅师
+name: 曹山本寂
+honorific: 曹山本寂禅师 · 元证禅师（谥）
+school: 曹洞宗
+dynasty: 唐
+region: 抚州曹山（宝积寺）
+teacher: 洞山良价
+source_ref: 五灯会元·卷十三·抚州曹山本寂 / 景德传灯录·卷十七
+cbeta: T51n2076 卷十七
+bio: 泉州黄氏子，洞山良价法嗣。光大洞山五位君臣之说，立「君臣五位」「宝镜三昧」之详密解释，与洞山共成曹洞宗风，以「回互不回互」之理事圆融为极则。
+sayings:
+- text: 释五位君臣：「正位即空界，偏位即色界；正位中来者，无语中有语；偏位中来者，有语中无语。」
+  ref: 五灯会元·卷十三·曹山本寂
+status: draft
+verify: 待 CBETA 校对。
+evidence: primary
+verify_status: anchor_only

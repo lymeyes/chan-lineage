@@ -1,0 +1,14 @@
+id: 盐官齐安国师
+name: 盐官齐安
+school: 南岳系
+teacher: 马祖一
+bio: 马祖道一禅师法嗣，住盐官（今浙江海宁）。以「国家有宝」及与百丈、南泉、麻谷同参之公案见称。
+sayings:
+- text: 师（盐官）唤侍者：「将犀牛扇子来。」侍者曰：「破也。」师曰：「扇子既破，还我犀牛儿来。」侍者无对。
+  ref: 五灯会元·卷三·盐官齐安国师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录 / 五灯会元（卷次待核）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

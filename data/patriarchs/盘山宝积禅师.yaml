@@ -1,0 +1,14 @@
+id: 盘山宝积禅师
+name: 盘山宝积
+school: 南岳系
+teacher: 马祖一
+bio: 马祖道一禅师法嗣，住幽州盘山。以「心月孤圆，光吞万象」之开示著称。
+sayings:
+- text: 师示众：「心月孤圆，光吞万象；光即非光，境亦非境。」
+  ref: 五灯会元·卷三·盘山宝积禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷七 / 五灯会元卷三
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

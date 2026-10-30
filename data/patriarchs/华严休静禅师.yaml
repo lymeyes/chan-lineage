@@ -1,0 +1,14 @@
+id: 华严休静禅师
+name: 华严休静
+school: 曹洞宗
+teacher: 洞山价
+bio: 洞山良价禅师法嗣，住华严寺。以「华严万偈」开示学人，为曹洞宗早期弘化者之一。
+sayings:
+- text: 僧问：「祖祖相传，传个什么？」师（华严）曰：「传个无底钵。」
+  ref: 五灯会元·卷十三·华严休静禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录 / 五灯会元（卷次待核）
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

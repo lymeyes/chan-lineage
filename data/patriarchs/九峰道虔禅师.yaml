@@ -1,0 +1,14 @@
+id: 九峰道虔禅师
+name: 九峰道虔
+school: 曹洞宗
+teacher: 石霜诸
+bio: 洞山良价禅师法嗣，住九峰。于洞山迁化后力撑曹洞门庭，辨别师承甚严，世称「九峰和尚」。
+sayings:
+- text: 僧问：「师唱谁家曲？」师（九峰）曰：「曹洞谱。」
+  ref: 五灯会元·卷十三·九峰道虔禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷十七 / 五灯会元卷六
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only

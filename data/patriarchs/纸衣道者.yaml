@@ -1,0 +1,14 @@
+id: 纸衣道者
+name: 纸衣道者
+school: 临济宗
+teacher: 临济义玄
+bio: 临济义玄禅师法嗣，人称纸衣道者。以一则与临济论「纸衣下事／用」的公案传于世。
+sayings:
+- text: 临济问：「莫是纸衣道者么？」衣曰：「不敢。」济曰：「如何是纸衣下事？」衣曰：「一裘才挂体，万法悉皆如。」济曰：「如何是纸衣下用？」衣曰：「遍界不曾藏。」
+  ref: 五灯会元·卷十一·临济义玄禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 临济录 / 五灯会元卷十一（纸衣道者）
+cbeta: T47n1985（临济录）
+evidence: primary
+verify_status: anchor_only

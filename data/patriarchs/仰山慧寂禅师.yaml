@@ -1,0 +1,17 @@
+id: 仰山慧寂禅师
+name: 仰山慧寂
+honorific: 仰山慧寂禅师 · 智通禅师（谥）
+school: 沩仰宗
+dynasty: 唐
+region: 袁州仰山（栖隐寺）
+teacher: 沩山灵祐
+source_ref: 五灯会元·卷九·袁州仰山慧寂 / 景德传灯录·卷九
+cbeta: T51n2076 卷九
+bio: 韶州叶氏子，沩山灵祐之法嗣，与师共创沩仰宗。善以「圆相」（画○）表法，父子机锋绵密，勘验学人，宗风细密如理如事。后传法西塔光穆、南塔光涌等。
+sayings:
+- text: 以圆相接人：或画一圆相○，或于圆中书佛字、卍字、牛字等，勘验来机。
+  ref: 五灯会元·卷九·仰山慧寂
+status: draft
+verify: 待 CBETA 校对圆相机缘。
+evidence: primary
+verify_status: anchor_only

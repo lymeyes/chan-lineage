@@ -1,0 +1,14 @@
+id: 疏山匡仁禅师
+name: 疏山匡仁
+school: 曹洞宗
+teacher: 禅宗法脉
+bio: 洞山良价禅师法嗣，住抚州疏山。于洞山会下入室得法，以机辩见称。
+sayings:
+- text: 僧问：「如何是疏山？」师曰：「我曾向人道了也。」曰：「如何是疏山家风？」师曰：「粗杓簸箕，杓柄长短。」
+  ref: 五灯会元·卷十三·疏山匡仁禅师
+status: draft
+verify: 据《五灯会元》整理，待 CBETA 逐字校核原文与卷次；师承以谱系父节点为准。
+source_ref: 景德传灯录卷二十 / 五灯会元卷十三
+cbeta: T51n2076（景德传灯录）
+evidence: primary
+verify_status: anchor_only
