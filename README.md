@@ -153,6 +153,10 @@ python3 -m http.server -d site 8000   # 然后访问 http://localhost:8000
   另 4 处师承指向树中不存在的人物（菩提达摩→西天二十七祖般若多罗、摩诃迦叶→释迦牟尼佛、
   李遵勗→石门慈照、白云守端→杨岐方会），teacher 保留原值，`audit_integrity.py` 将其列为告警；
   若要消除须补建这 4 个节点并核定其在树中的位置。
+- **`school` 与师承宗派不符 44 张（已出报告，未自动改）**：见
+  [`reports/school_mismatch.md`](reports/school_mismatch.md)。最大一族是「芙蓉道楷（曹洞宗）法嗣被标法眼宗」
+  共 12 张，疑为分支图配色表错位。**未批量按 `teacher` 覆盖**，理由：万一 `teacher` 本身有误，
+  覆盖会把对的改成错的；已逐条列出待核，确认后可一键订正。
 
 ## 版权与署名
 
