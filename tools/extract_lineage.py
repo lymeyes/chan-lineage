@@ -5,10 +5,58 @@ extract_lineage.py
 输出 data/lineage.json（tree 嵌套结构 + nodes 扁平表 + meta）。
 零杜撰：本脚本只搬运已有结构（id/name/house/children），并向下传播 house。
 """
-import re, json, datetime, os
+import re, json, datetime, os, glob
 
 SRC = "/Users/liuyimin/Obsidian/Noteshelf/我的笔记/我的随笔/佛教-禅宗谱系-分支图.html"
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "lineage.json")
+
+# 规范房支名（= offline_generate.HOUSE_COLORS 的键）
+CANON = {
+    "源头", "西天祖师", "东土祖师", "南岳系", "青原系",
+    "临济宗", "杨岐派", "黄龙派", "曹洞宗", "云门宗", "法眼宗", "沩仰宗",
+}
+
+def canonical(school):
+    """卡片 school 归并到规范房支名；无法归并返回 None（保留树派生 house）。"""
+    if not school or school == "—":
+        return None
+    s = school.strip()
+    if s in CANON:
+        return s
+    for key in CANON:
+        if s.startswith(key):
+            return key
+    return None
+
+def load_schools():
+    schools = {}
+    pat = os.path.join(os.path.dirname(__file__), "..", "data", "patriarchs", "*.yaml")
+    for fp in glob.glob(pat):
+        txt = open(fp, encoding="utf-8").read()
+        m = re.search(r"^id:\s*(.+)$", txt, re.M)
+        s = re.search(r"^school:\s*(.+)$", txt, re.M)
+        if m and s:
+            schools[m.group(1).strip()] = canonical(s.group(1).strip())
+    return schools
+
+def reconcile_house(tree, nodes, schools):
+    """把 house 对齐到 canonical(school)，与树中父子传承边解耦。返回改动计数。"""
+    n_changed = 0
+    for n in nodes:
+        nh = schools.get(n["id"])
+        if nh is not None and n.get("house") != nh:
+            n["house"] = nh
+            n_changed += 1
+    def rec(t):
+        c = 0
+        nh = schools.get(t["id"])
+        if nh is not None and t.get("house") != nh:
+            t["house"] = nh; c += 1
+        for ch in t.get("children", []):
+            c += rec(ch)
+        return c
+    rec(tree)
+    return n_changed
 
 def main():
     html = open(SRC, encoding="utf-8").read()
@@ -47,7 +95,13 @@ def main():
             walk(c, n["id"], depth + 1)
     walk(tree, None, 0)
 
-    # house 分布
+    # ---- house 对齐 school（经灯录核实的宗派），与树中父子传承边解耦 ----
+    schools = load_schools()
+    n_changed = reconcile_house(tree, nodes, schools)
+    if n_changed:
+        print("house 对齐 school：%d 个节点被覆盖" % n_changed)
+
+    # house 分布（对齐后重算）
     from collections import Counter
     houses = Counter(n["house"] for n in nodes)
     max_depth = max(n["depth"] for n in nodes)
@@ -62,6 +116,8 @@ def main():
             "total_nodes": len(nodes),
             "max_depth": max_depth,
             "house_distribution": dict(houses),
+            "house_note": ("house 自 2026-10-31 起对齐 school（经灯录核实的宗派），"
+                          "与树中父子传承边解耦；无 school/祖位节点保留树派生 house。"),
             "duplicate_ids": dup,
             "note": "本文件为零杜撰的结构化底座；每位祖师的生平/引文见 data/patriarchs/<id>.yaml（待补）。",
         },
