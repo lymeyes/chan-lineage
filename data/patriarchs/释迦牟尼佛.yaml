@@ -1,0 +1,19 @@
+id: 释迦牟尼佛
+name: 释迦牟尼佛
+honorific: 本师释迦牟尼佛 · 娑婆世界教主
+school: 源头
+dynasty: 古印度（约公元前 6—前 5 世纪）
+region: 中天竺迦毗罗卫国
+teacher: "—"
+source_ref: 五灯会元·卷一·释迦牟尼佛 / 景德传灯录·卷一·释迦牟尼佛
+cbeta: T51n2076
+bio: |
+  姓瞿昙，名悉达多，中天竺迦毗罗卫国净饭王太子。出家苦行六年后，于菩提树下成等正觉，
+  说法四十九年，度人无算。禅宗尊西天诸祖之教主；灯录以摩诃迦叶为西天初祖，佛陀为教法之源。
+status: core
+verify_status: extracted
+sayings: []
+alias:
+  - 佛陀
+  - 释迦文佛
+  - 如来

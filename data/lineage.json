@@ -3630,10 +3630,22 @@
                         ]
                       }
                     ]
+                  },
+                  {
+                    "id": "西天二十七祖般若多罗",
+                    "name": "西天二十七祖般若多罗",
+                    "house": "源头",
+                    "children": []
                   }
                 ]
               }
             ]
+          },
+          {
+            "id": "释迦牟尼佛",
+            "name": "释迦牟尼佛",
+            "house": "源头",
+            "children": []
           }
         ]
       },
@@ -10715,6 +10727,12 @@
             "name": "蕲州黄梅龙华寺晓愚",
             "house": "源头",
             "children": []
+          },
+          {
+            "id": "石门慈照禅师",
+            "name": "石门慈照",
+            "house": "临济宗",
+            "children": []
           }
         ]
       },
@@ -12375,7 +12393,7 @@
       "house": "源头",
       "parent": "禅宗法脉",
       "depth": 1,
-      "n_children": 1
+      "n_children": 2
     },
     {
       "id": "西天初祖摩诃迦叶",
@@ -12391,7 +12409,7 @@
       "house": "源头",
       "parent": "西天初祖摩诃迦叶",
       "depth": 3,
-      "n_children": 1
+      "n_children": 2
     },
     {
       "id": "西天二十八祖",
@@ -22631,7 +22649,7 @@
       "house": "临济宗",
       "parent": "禅宗法脉",
       "depth": 1,
-      "n_children": 11
+      "n_children": 12
     },
     {
       "id": "石霜楚圆禅师",
@@ -28174,6 +28192,30 @@
       "name": "韶州法海",
       "house": "源头",
       "parent": "六祖大鉴旁出",
+      "depth": 2,
+      "n_children": 0
+    },
+    {
+      "id": "释迦牟尼佛",
+      "name": "释迦牟尼佛",
+      "house": "源头",
+      "parent": "过去七佛",
+      "depth": 2,
+      "n_children": 0
+    },
+    {
+      "id": "西天二十七祖般若多罗",
+      "name": "西天二十七祖般若多罗",
+      "house": "源头",
+      "parent": "西天二祖阿难",
+      "depth": 4,
+      "n_children": 0
+    },
+    {
+      "id": "石门慈照禅师",
+      "name": "石门慈照",
+      "house": "临济宗",
+      "parent": "汾阳善昭禅师",
       "depth": 2,
       "n_children": 0
     }

@@ -104,10 +104,9 @@ def main():
     # 8) teacher 与树 parent 冲突（仅告警：树里挂根但 teacher 指明师承，属"断链祖先"）
     import yaml
     # 树中确无对应节点的师承：保留原值不臆造，单列告警（补建节点需逐人核定谱系，留待决策）
-    KNOWN_TEACHER_MISSING = {"西天二十七祖般若多罗": "东土初祖菩提达摩",
-                             "释迦牟尼佛": "西天初祖摩诃迦叶",
-                             "石门慈照": "驸马都尉李遵勗居士",
-                             "杨岐方会（杨歧会禅师）": "白云守端禅师"}
+    # 2026-10-30 已补建 释迦牟尼佛 / 西天二十七祖般若多罗 / 石门慈照禅师 三节点并改写对应 teacher，
+    # 原 4 处悬空均已解析；此处留空，任何新的悬空都应按失败暴露。
+    KNOWN_TEACHER_MISSING = {}
     warns = []
     for fp in glob.glob(os.path.join(PAT, "*.yaml")):
         cid = os.path.basename(fp)[:-5]

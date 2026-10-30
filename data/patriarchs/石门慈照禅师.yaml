@@ -1,0 +1,18 @@
+id: 石门慈照禅师
+name: 石门慈照
+honorific: 石门慈照蕴聪禅师
+school: 临济宗
+dynasty: 宋
+region: 潭州石门
+teacher: 汾阳善昭禅师
+source_ref: 五灯会元·卷十二·石门蕴聪禅师 / 建中靖国续灯录
+cbeta: X78n1556
+bio: |
+  宋代临济宗禅师，汾阳善昭之法嗣。住石门，学者云集。驸马都尉李遵勗居士为其在家弟子，问道甚切，
+  尝问「世间何物最苦」，慈照以「地狱众生无始无明最苦」答之。
+status: draft
+verify_status: extracted
+sayings: []
+alias:
+  - 慈照蕴聪
+  - 石门聪

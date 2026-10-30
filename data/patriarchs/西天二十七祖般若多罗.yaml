@@ -1,0 +1,17 @@
+id: 西天二十七祖般若多罗
+name: 西天二十七祖般若多罗
+honorific: 西天第二十七祖
+school: 源头
+dynasty: 南天竺
+region: 南天竺
+teacher: "—"
+source_ref: 五灯会元·卷一·东土初祖菩提达摩（般若多罗付法于达摩，嘱其东来） / 景德传灯录·卷三
+cbeta: T51n2076
+bio: |
+  西天第二十七代付法藏祖师，南天竺人。承上祖心印，预记南天竺有无价宝珠（指菩提达摩），
+  嘱其待震旦缘熟东渡传法，后付法于菩提达摩，为东土禅宗之前导。
+status: core
+verify_status: extracted
+sayings: []
+alias:
+  - 般若多罗

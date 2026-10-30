@@ -139,9 +139,9 @@ def render_md(p):
     L = []
     L.append("# %s" % p["name"])
     if p["honorific"]:
-        L.append("> 禅宗法脉 · %s · %s" % (p["house"], p["honorific"]))
+        L.append("> 禅宗法脉 · %s · %s" % (p["school"], p["honorific"]))
     else:
-        L.append("> 禅宗法脉 · %s" % p["house"])
+        L.append("> 禅宗法脉 · %s" % p["school"])
     L.append("")
     L.append("- **房支/宗派**：%s" % p["school"])
     L.append("- **朝代**：%s" % p["dynasty"])

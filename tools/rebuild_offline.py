@@ -30,7 +30,7 @@ import subprocess
 import sys
 import tempfile
 
-DEFAULT_TARGET = os.path.expanduser("~/Obsidian/Noteshelf/我的书库/宗脉谱系")
+DEFAULT_TARGET = os.path.expanduser("~/Obsidian/Bookshelf/宗脉谱系")
 REPO_SSH = "git@github.com:lymeyes/chan-lineage.git"
 REPO_HTTPS = "https://github.com/lymeyes/chan-lineage.git"
 
